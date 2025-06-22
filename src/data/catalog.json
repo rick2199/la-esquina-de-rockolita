@@ -1,0 +1,4462 @@
+{
+  "licores": {
+    "title": "Licores",
+    "icon": "🍷",
+    "description": "Bebidas alcohólicas destiladas y fermentadas de alta calidad",
+    "subcategories": {
+      "whisky": {
+        "title": "Whisky",
+        "icon": "🥃",
+        "description": "Whiskies de diversas marcas y estilos, desde escoceses hasta americanos.",
+        "products": [
+          {
+            "name": "Vat 69",
+            "brand": "Vat 69",
+            "presentations": [{ "type": "Botella 700ml", "price": "24.00" }],
+            "tags": ["escoces", "popular", "economico", "blend", "suave"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vat-69-700ml.png"
+          },
+          {
+            "name": "Passport Scotch",
+            "brand": "Passport Scotch",
+            "presentations": [{ "type": "Botella 700ml", "price": "35.00" }],
+            "tags": ["escoces", "popular", "economico", "blend", "suave"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/passport-scotch-700ml.png"
+          },
+          {
+            "name": "Old Times Red",
+            "brand": "Old Times",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": ["escoces", "popular", "economico", "blend", "suave"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/old-times-red-750ml.png"
+          },
+          {
+            "name": "Old Times Black",
+            "brand": "Old Times",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": ["escoces", "popular", "economico", "blend", "intenso"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/old-times-black-750ml.png"
+          },
+          {
+            "name": "Ballantines´s Finest",
+            "brand": "Ballantines´s Finest",
+            "presentations": [{ "type": "Botella 700ml", "price": "48.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "suave",
+              "gama-media"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/ballantines-finest-700ml.png"
+          },
+          {
+            "name": "Ballantines´s Finest Pack",
+            "brand": "Ballantines´s Finest",
+            "presentations": [
+              { "type": "Pack 2 botellas 700ml + 200ml", "price": "55.00" }
+            ],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "suave",
+              "pack-promocional",
+              "gama-media"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/ballantines-finest-pack-900ml.png"
+          },
+          {
+            "name": "Something Special Clásico",
+            "brand": "Something Special",
+            "presentations": [{ "type": "Botella 750ml", "price": "49.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "clasico",
+              "gama-media"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/something-special-750ml.png"
+          },
+          {
+            "name": "Something Special Clásico Pack",
+            "brand": "Something Special",
+            "presentations": [
+              { "type": "Pack 2 botellas 750ml + 200ml", "price": "55.00" }
+            ],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "clasico",
+              "pack-promocional",
+              "gama-media"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/something-special-pack-950ml.png"
+          },
+          {
+            "name": "Grant´s Triple Wood",
+            "brand": "Grant´s",
+            "presentations": [{ "type": "Botella 750ml", "price": "42.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "triple-wood",
+              "gama-media"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/grants-triple-wood-750ml.png"
+          },
+          {
+            "name": "Old Parr 12 años",
+            "brand": "Old Parr",
+            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "12-años",
+              "añejado",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/old-parr-12-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Jack Daniel´s N° 7",
+            "brand": "Jack Daniel´s",
+            "presentations": [{ "type": "Botella 750ml", "price": "99.00" }],
+            "tags": [
+              "americano",
+              "popular",
+              "premium",
+              "tennessee",
+              "clasico",
+              "intenso",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jack-daniels-n7-750ml.png"
+          },
+          {
+            "name": "Jack Daniel´s Honey",
+            "brand": "Jack Daniel´s",
+            "presentations": [{ "type": "Botella 750ml", "price": "99.00" }],
+            "tags": [
+              "americano",
+              "popular",
+              "premium",
+              "tennessee",
+              "miel",
+              "dulce",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jack-daniels-honey-750ml.png"
+          },
+          {
+            "name": "Johnnie Walker Red Label",
+            "brand": "Johnnie Walker",
+            "presentations": [{ "type": "Botella 750ml", "price": "50.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "red-label",
+              "intenso",
+              "gama-media"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/johnnie-walker-red-label-750ml.png"
+          },
+          {
+            "name": "Johnnie Walker Black Label",
+            "brand": "Johnnie Walker",
+            "presentations": [{ "type": "Botella 750ml", "price": "110.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "black-label",
+              "12-años",
+              "añejado",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/johnnie-walker-black-label-750ml.png"
+          },
+          {
+            "name": "Johnnie Walker Double Black Label",
+            "brand": "Johnnie Walker",
+            "presentations": [{ "type": "Botella 750ml", "price": "150.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "double-black",
+              "intenso",
+              "ahumado",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/johnnie-walker-double-black-label-750ml.png"
+          },
+          {
+            "name": "Johnnie Walker Gold Label",
+            "brand": "Johnnie Walker",
+            "presentations": [{ "type": "Botella 750ml", "price": "220.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "gold-label",
+              "18-años",
+              "añejado",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/johnnie-walker-gold-label-750ml.png"
+          },
+          {
+            "name": "Chivas Regal 12 años",
+            "brand": "Chivas Regal",
+            "presentations": [{ "type": "Botella 700ml", "price": "90.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "12-años",
+              "añejado",
+              "suave",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chivas-regal-12-an%CC%83os-700ml.png"
+          },
+          {
+            "name": "Chivas Regal Extra",
+            "brand": "Chivas Regal",
+            "presentations": [{ "type": "Botella 700ml", "price": "99.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "extra",
+              "suave",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chivas-regal-extra-700ml.png"
+          },
+          {
+            "name": "Chivas Regal XV",
+            "brand": "Chivas Regal",
+            "presentations": [{ "type": "Botella 750ml", "price": "199.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "15-años",
+              "añejado",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chivas-regal-xv-750ml.png"
+          },
+          {
+            "name": "Chivas Regal 18 años",
+            "brand": "Chivas Regal",
+            "presentations": [{ "type": "Botella 700ml", "price": "250.00" }],
+            "tags": [
+              "escoces",
+              "popular",
+              "premium",
+              "blend",
+              "18-años",
+              "añejado",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chivas-regal-18-an%CC%83os-700ml.png"
+          }
+        ]
+      },
+      "ron": {
+        "title": "Ron",
+        "icon": "🌴",
+        "description": "Rones de alta calidad, desde los más suaves hasta los más intensos.",
+        "products": [
+          {
+            "name": "Cartavio Black",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 125ml", "price": "7.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "negro",
+              "añejado",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-black-125ml.png"
+          },
+          {
+            "name": "Cartavio Blanco",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 125ml", "price": "7.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "blanco",
+              "suave",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-blanco-125ml.png"
+          },
+          {
+            "name": "Cartavio Superior",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 125ml", "price": "7.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "dorado",
+              "premium",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-superior-125ml.png"
+          },
+          {
+            "name": "Cartavio Black",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 250ml", "price": "10.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "negro",
+              "añejado",
+              "mediano"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-black-250ml.png"
+          },
+          {
+            "name": "Cartavio Blanco",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 250ml", "price": "10.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "blanco",
+              "suave",
+              "mediano"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-blanco-250ml.png"
+          },
+          {
+            "name": "Cartavio Superior",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 250ml", "price": "10.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "dorado",
+              "premium",
+              "mediano"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-superior-250ml.png"
+          },
+          {
+            "name": "Cartavio Black",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "negro",
+              "añejado",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-black-750ml.png"
+          },
+          {
+            "name": "Cartavio Blanco",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "blanco",
+              "suave",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-blanco-750ml.png"
+          },
+          {
+            "name": "Cartavio Superior",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "dorado",
+              "premium",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-superior-750ml.png"
+          },
+          {
+            "name": "Cartavio Black Barrel",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "32.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "negro",
+              "barrel",
+              "premium",
+              "ahumado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-black-barrel-750ml.png"
+          },
+          {
+            "name": "Cartavio Selecto 5 Años",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "35.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "5-años",
+              "añejado",
+              "premium",
+              "selecto"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-selecto-5-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Cartavio Reserva 8 Años",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "52.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "8-años",
+              "añejado",
+              "premium",
+              "reserva"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-reserva-8-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Cartavio Solera 12 Años",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "12-años",
+              "añejado",
+              "premium",
+              "solera",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-solera-12-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Cartavio XO 18 Años",
+            "brand": "Cartavio",
+            "presentations": [{ "type": "Botella 750ml", "price": "180.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "18-años",
+              "añejado",
+              "luxury",
+              "extra-old",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cartavio-xo-18-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Cabo Blanco Black",
+            "brand": "Cabo Blanco",
+            "presentations": [{ "type": "Botella 1L", "price": "25.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nacional",
+              "negro",
+              "economico",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cabo-blanco-black-1l.png"
+          },
+          {
+            "name": "Viejo de Caldas 3 Años",
+            "brand": "Viejo de Caldas",
+            "presentations": [{ "type": "Botella 750ml", "price": "32.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "colombiano",
+              "3-años",
+              "añejado",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/viejo-de-caldas-3-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Viejo de Caldas 5 Años",
+            "brand": "Viejo de Caldas",
+            "presentations": [{ "type": "Botella 750ml", "price": "38.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "colombiano",
+              "5-años",
+              "añejado",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/viejo-de-caldas-5-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Medellín 3 Años",
+            "brand": "Medellín",
+            "presentations": [{ "type": "Botella 750ml", "price": "35.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "colombiano",
+              "3-años",
+              "añejado",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/medellin-3-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Medellín 8 Años",
+            "brand": "Medellín",
+            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "colombiano",
+              "8-años",
+              "añejado",
+              "premium",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/medellin-8-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Medellín 12 Años",
+            "brand": "Medellín",
+            "presentations": [{ "type": "Botella 750ml", "price": "105.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "colombiano",
+              "12-años",
+              "añejado",
+              "premium",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/medellin-12-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Appleton Estate Signature Blend",
+            "brand": "Appleton",
+            "presentations": [{ "type": "Botella 200ml", "price": "16.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "jamaiquino",
+              "premium",
+              "blend",
+              "pequeño",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/appleton-signature-200ml.png"
+          },
+          {
+            "name": "Appleton Estate 8 Años",
+            "brand": "Appleton",
+            "presentations": [{ "type": "Botella 200ml", "price": "22.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "jamaiquino",
+              "premium",
+              "8-años",
+              "añejado",
+              "pequeño",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/appleton-state-8-an%CC%83os-200ml.png"
+          },
+          {
+            "name": "Appleton Dorado",
+            "brand": "Appleton",
+            "presentations": [{ "type": "Botella 750ml", "price": "33.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "jamaiquino",
+              "premium",
+              "dorado",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/appleton-dorado-750ml.png"
+          },
+          {
+            "name": "Kingston 62",
+            "brand": "Appleton",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "jamaiquino",
+              "premium",
+              "especial",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/kingston-62-750ml.png"
+          },
+          {
+            "name": "Appleton Estate Signature Blend",
+            "brand": "Appleton",
+            "presentations": [{ "type": "Botella 750ml", "price": "60.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "jamaiquino",
+              "premium",
+              "blend",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/appleton-signature-blend-750ml.png"
+          },
+          {
+            "name": "Appleton Rare Blend 12 Años",
+            "brand": "Appleton",
+            "presentations": [{ "type": "Botella 750ml", "price": "130.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "jamaiquino",
+              "premium",
+              "12-años",
+              "añejado",
+              "rare",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/appleton-rare-blend-12-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Barceló Dorado",
+            "brand": "Barceló",
+            "presentations": [{ "type": "Botella 750ml", "price": "36.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "dominicano",
+              "premium",
+              "dorado",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/barcelo-dorado-750ml.png"
+          },
+          {
+            "name": "Barceló Añejo",
+            "brand": "Barceló",
+            "presentations": [{ "type": "Botella 750ml", "price": "45.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "dominicano",
+              "premium",
+              "añejado",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/barcelo-an%CC%83ejo-750ml.png"
+          },
+          {
+            "name": "Barceló Gran Añejo",
+            "brand": "Barceló",
+            "presentations": [{ "type": "Botella 750ml", "price": "50.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "dominicano",
+              "premium",
+              "gran-añejo",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/barcelo-gran-an%CC%83ejo-750ml.png"
+          },
+          {
+            "name": "Havana Club Añejo Especial",
+            "brand": "Havana Club",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "cubano",
+              "premium",
+              "añejo-especial",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/havana-club-an%CC%83ejo-especial-750ml.png"
+          },
+          {
+            "name": "Havana Club Añejo Blanco",
+            "brand": "Havana Club",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "cubano",
+              "premium",
+              "blanco",
+              "añejo",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/havana-club-an%CC%83ejo-blanco-750ml.png"
+          },
+          {
+            "name": "Havana Club Añejo Reserva",
+            "brand": "Havana Club",
+            "presentations": [{ "type": "Botella 750ml", "price": "60.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "cubano",
+              "premium",
+              "reserva",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/havana-club-an%CC%83ejo-reserva-750ml.png"
+          },
+          {
+            "name": "Havana Club Selección de Maestros",
+            "brand": "Havana Club",
+            "presentations": [{ "type": "Botella 750ml", "price": "140.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "cubano",
+              "premium",
+              "maestros",
+              "luxury",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/havana-club-seleccion-de-maestros-750ml.png"
+          },
+          {
+            "name": "Malibu Coco",
+            "brand": "Malibu",
+            "presentations": [{ "type": "Botella 750ml", "price": "42.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "caribeño",
+              "coco",
+              "dulce",
+              "tropical",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/malibu-coco-750ml.png"
+          },
+          {
+            "name": "Captain Morgan Original Spiced Gold",
+            "brand": "Captain Morgan",
+            "presentations": [{ "type": "Botella 750ml", "price": "43.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "caribeño",
+              "especiado",
+              "dorado",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/captain-morgan-origina-spiced-750ml.png"
+          },
+          {
+            "name": "Flor de Caña 4 Años",
+            "brand": "Flor de Caña",
+            "presentations": [{ "type": "Botella 750ml", "price": "43.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nicaraguense",
+              "4-años",
+              "añejado",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/flor-de-can%CC%83a-4-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Flor de Caña 5 Años",
+            "brand": "Flor de Caña",
+            "presentations": [{ "type": "Botella 750ml", "price": "52.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nicaraguense",
+              "5-años",
+              "añejado",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/flor-de-can%CC%83a-5-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Flor de Caña 7 Años",
+            "brand": "Flor de Caña",
+            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nicaraguense",
+              "7-años",
+              "añejado",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/flor-de-can%CC%83a-7-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Flor de Caña 12 Años",
+            "brand": "Flor de Caña",
+            "presentations": [{ "type": "Botella 750ml", "price": "110.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nicaraguense",
+              "12-años",
+              "añejado",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/flor-de-can%CC%83a-12-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Flor de Caña 18 Años",
+            "brand": "Flor de Caña",
+            "presentations": [{ "type": "Botella 750ml", "price": "190.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "nicaraguense",
+              "18-años",
+              "añejado",
+              "luxury",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/flor-de-can%CC%83a-18-an%CC%83os-750ml.png"
+          },
+          {
+            "name": "Bacardi Carta Oro",
+            "brand": "Bacardi",
+            "presentations": [{ "type": "Botella 750ml", "price": "45.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "puertorriqueño",
+              "dorado",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/bacardi-carta-oro-750ml.png"
+          },
+          {
+            "name": "Bacardi Carta Blanca",
+            "brand": "Bacardi",
+            "presentations": [{ "type": "Botella 750ml", "price": "45.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "puertorriqueño",
+              "blanco",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/bacardi-carta-blanca-750ml.png"
+          },
+          {
+            "name": "Bacardi Añejo",
+            "brand": "Bacardi",
+            "presentations": [{ "type": "Botella 750ml", "price": "60.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "puertorriqueño",
+              "añejo",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/bacardi-an%CC%83ejo-750ml.png"
+          },
+          {
+            "name": "Abuelo Añejo",
+            "brand": "Abuelo",
+            "presentations": [{ "type": "Botella 1L", "price": "50.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "panameño",
+              "añejo",
+              "premium",
+              "grande",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/abuelo-an%CC%83ejo-1l.png"
+          },
+          {
+            "name": "Santa Teresa Gran Reserva Añejo",
+            "brand": "Santa Teresa",
+            "presentations": [{ "type": "Botella 750ml", "price": "80.00" }],
+            "tags": [
+              "ron",
+              "popular",
+              "venezolano",
+              "gran-reserva",
+              "añejo",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santa-teresa-gran-reserva-an%CC%83ejo-750ml.png"
+          }
+        ]
+      },
+      "tequila": {
+        "title": "Tequila",
+        "icon": "🌵",
+        "description": "Tequilas de alta calidad, desde los más suaves hasta los más intensos.",
+        "products": [
+          {
+            "name": "Olmeca Reposado",
+            "brand": "Olmeca",
+            "presentations": [{ "type": "Botella 700ml", "price": "65.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "reposado",
+              "añejado",
+              "suave",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/olmeca-reposado-700ml.png"
+          },
+          {
+            "name": "Olmeca Blanco",
+            "brand": "Olmeca",
+            "presentations": [{ "type": "Botella 700ml", "price": "65.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "blanco",
+              "silver",
+              "fresco",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/olmeca-silver-700ml.png"
+          },
+          {
+            "name": "Jose Cuervo Reposado",
+            "brand": "Jose Cuervo",
+            "presentations": [{ "type": "Botella 750ml", "price": "65.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "reposado",
+              "añejado",
+              "clasico",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jose-cuervo-reposado-750ml.png"
+          },
+          {
+            "name": "Jose Cuervo Blanco",
+            "brand": "Jose Cuervo",
+            "presentations": [{ "type": "Botella 750ml", "price": "65.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "blanco",
+              "silver",
+              "clasico",
+              "premium"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jose-cuervo-silver-750ml.png"
+          },
+          {
+            "name": "El Jimador Reposado",
+            "brand": "El Jimador",
+            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "reposado",
+              "añejado",
+              "artesanal",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/el-jimador-reposado-750ml.png"
+          },
+          {
+            "name": "El Jimador Blanco",
+            "brand": "El Jimador",
+            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "blanco",
+              "silver",
+              "artesanal",
+              "gama-alta"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/el-jimador-silver-750ml.png"
+          },
+          {
+            "name": "1800 Reposado",
+            "brand": "1800",
+            "presentations": [{ "type": "Botella 750ml", "price": "110.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "reposado",
+              "añejado",
+              "premium",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/1800-reposado-750ml.png"
+          },
+          {
+            "name": "1800 Blanco",
+            "brand": "1800",
+            "presentations": [{ "type": "Botella 750ml", "price": "110.00" }],
+            "tags": [
+              "tequila",
+              "popular",
+              "mexicano",
+              "blanco",
+              "silver",
+              "premium",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/1800-silver-750ml.png"
+          }
+        ]
+      },
+      "vodka": {
+        "title": "Vodka",
+        "icon": "🍸",
+        "description": "Vodkas de alta calidad, ideales para cócteles o disfrutar solos.",
+        "products": [
+          {
+            "name": "Russkaya Clásico",
+            "brand": "Russkaya",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "clasico",
+              "economico",
+              "neutro"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/russkaya-750ml.png"
+          },
+          {
+            "name": "Russkaya Green Apple",
+            "brand": "Russkaya",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "manzana",
+              "frutal",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/russkaya-green-apple-750ml.png"
+          },
+          {
+            "name": "Russkaya Pink",
+            "brand": "Russkaya",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "frutal",
+              "dulce",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/russkaya-pink-750ml.png"
+          },
+          {
+            "name": "Smirnoff Red",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Botella 700ml", "price": "33.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "clasico",
+              "premium",
+              "neutro",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-red-700ml.png"
+          },
+          {
+            "name": "Smirnoff Green Apple",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Botella 700ml", "price": "37.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "manzana",
+              "frutal",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-green-apple-700ml.png"
+          },
+          {
+            "name": "Smirnoff Raspberry",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Botella 700ml", "price": "37.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "frambuesa",
+              "frutal",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-raspberry-700ml.png"
+          },
+          {
+            "name": "Smirnoff Watermelon",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Botella 700ml", "price": "37.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "ruso",
+              "sandia",
+              "frutal",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-watermelon-700ml.png"
+          },
+          {
+            "name": "Skyy Clásico",
+            "brand": "Skyy",
+            "presentations": [{ "type": "Botella 750ml", "price": "45.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "americano",
+              "clasico",
+              "premium",
+              "neutro",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/sky-750ml.png"
+          },
+          {
+            "name": "Skyy Pineapple",
+            "brand": "Skyy",
+            "presentations": [{ "type": "Botella 750ml", "price": "52.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "americano",
+              "piña",
+              "tropical",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/sky-pineapple-750ml.png"
+          },
+          {
+            "name": "Skyy Strawberry",
+            "brand": "Skyy",
+            "presentations": [{ "type": "Botella 750ml", "price": "52.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "americano",
+              "fresa",
+              "frutal",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/sky-strawberry-750ml.png"
+          },
+          {
+            "name": "Skyy Citrus",
+            "brand": "Skyy",
+            "presentations": [{ "type": "Botella 750ml", "price": "52.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "americano",
+              "citrico",
+              "refrescante",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/sky-citrus-750ml.png"
+          },
+          {
+            "name": "Absolut Clásico",
+            "brand": "Absolut",
+            "presentations": [{ "type": "Botella 700ml", "price": "53.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "sueco",
+              "clasico",
+              "premium",
+              "neutro",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/absolut-700ml.png"
+          },
+          {
+            "name": "Absolut Lime",
+            "brand": "Absolut",
+            "presentations": [{ "type": "Botella 750ml", "price": "55.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "sueco",
+              "lima",
+              "citrico",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/absolut-lime-750ml.png"
+          },
+          {
+            "name": "Absolut Mandrin",
+            "brand": "Absolut",
+            "presentations": [{ "type": "Botella 750ml", "price": "55.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "sueco",
+              "mandarina",
+              "citrico",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/absolut-mandrin-750ml.png"
+          },
+          {
+            "name": "Absolut Raspberry",
+            "brand": "Absolut",
+            "presentations": [{ "type": "Botella 750ml", "price": "55.00" }],
+            "tags": [
+              "vodka",
+              "popular",
+              "sueco",
+              "frambuesa",
+              "frutal",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/absolut-raspberry-750ml.png"
+          }
+        ]
+      },
+      "pisco": {
+        "title": "Pisco",
+        "icon": "🥃",
+        "description": "Piscos peruanos de alta calidad, ideales para cócteles o disfrutar solos.",
+        "products": [
+          {
+            "name": "Vargas Puro",
+            "brand": "Vargas",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "puro",
+              "economico",
+              "clasico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vargas-puro-750ml.png"
+          },
+          {
+            "name": "Vargas Acholado",
+            "brand": "Vargas",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "acholado",
+              "economico",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vargas-acholado-750ml.png"
+          },
+          {
+            "name": "Vargas Quebranta",
+            "brand": "Vargas",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "quebranta",
+              "economico",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vargas-quebranta-750ml.png"
+          },
+          {
+            "name": "Ocucaje Acholado",
+            "brand": "Ocucaje",
+            "presentations": [{ "type": "Botella 700ml", "price": "28.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "acholado",
+              "economico",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/ocucaje-acholado-700ml.png"
+          },
+          {
+            "name": "Ocucaje Italia",
+            "brand": "Ocucaje",
+            "presentations": [{ "type": "Botella 700ml", "price": "28.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "italia",
+              "economico",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/ocucaje-italia-700ml.png"
+          },
+          {
+            "name": "Ocucaje Quebranta",
+            "brand": "Ocucaje",
+            "presentations": [{ "type": "Botella 700ml", "price": "28.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "quebranta",
+              "economico",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/ocucaje-quebranta-700ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Quebranta",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "30.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "quebranta",
+              "premium",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-quebranta-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Italia",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "30.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "italia",
+              "premium",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-italia-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Acholado",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "30.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "acholado",
+              "premium",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-acholado-750ml.png"
+          },
+          {
+            "name": "Tabernero La Botija Acholado",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 700ml", "price": "35.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "acholado",
+              "premium",
+              "botija",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-botija-acholado-700ml.png"
+          },
+          {
+            "name": "Tabernero La Botija Italia",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 700ml", "price": "35.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "italia",
+              "premium",
+              "botija",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-botija-italia-700ml.png"
+          },
+          {
+            "name": "Tabernero La Botija Quebranta",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 700ml", "price": "35.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "quebranta",
+              "premium",
+              "botija",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-botija-quebranta-700ml.png"
+          },
+          {
+            "name": "Demonio de los Andes Acholado",
+            "brand": "Tacama",
+            "presentations": [{ "type": "Botella 700ml", "price": "39.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "acholado",
+              "premium",
+              "tacama",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tacama-acholado-700ml.png"
+          },
+          {
+            "name": "Demonio de los Andes Italia",
+            "brand": "Tacama",
+            "presentations": [{ "type": "Botella 700ml", "price": "39.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "italia",
+              "premium",
+              "tacama",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tacama-italia-700ml.png"
+          },
+          {
+            "name": "Demonio de los Andes Quebranta",
+            "brand": "Tacama",
+            "presentations": [{ "type": "Botella 700ml", "price": "39.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "quebranta",
+              "premium",
+              "tacama",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tacama-quebranta-700ml.png"
+          },
+          {
+            "name": "Cuatro Gallos Acholado",
+            "brand": "Cuatro Gallos",
+            "presentations": [{ "type": "Botella 700ml", "price": "40.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "acholado",
+              "premium",
+              "gama-media",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cuatro-gallos-acholado-700ml.png"
+          },
+          {
+            "name": "Cuatro Gallos Italia",
+            "brand": "Cuatro Gallos",
+            "presentations": [{ "type": "Botella 700ml", "price": "40.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "italia",
+              "premium",
+              "gama-media",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cuatro-gallos-italia-700ml.png"
+          },
+          {
+            "name": "Cuatro Gallos Quebranta",
+            "brand": "Cuatro Gallos",
+            "presentations": [{ "type": "Botella 700ml", "price": "40.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "quebranta",
+              "premium",
+              "gama-media",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cuatro-gallos-quebranta-700ml.png"
+          },
+          {
+            "name": "Cuatro Gallos Mosto Verde Acholado",
+            "brand": "Cuatro Gallos",
+            "presentations": [{ "type": "Botella 700ml", "price": "65.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "acholado",
+              "premium",
+              "gama-alta",
+              "especial"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cuatro-gallos-mosto-verde-acholado-700ml.png"
+          },
+          {
+            "name": "Cuatro Gallos Mosto Verde Italia",
+            "brand": "Cuatro Gallos",
+            "presentations": [{ "type": "Botella 700ml", "price": "65.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "italia",
+              "premium",
+              "gama-alta",
+              "especial",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cuatro-gallos-mosto-verde-italia-700ml.png"
+          },
+          {
+            "name": "Cuatro Gallos Mosto Verde Quebranta",
+            "brand": "Cuatro Gallos",
+            "presentations": [{ "type": "Botella 700ml", "price": "65.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "quebranta",
+              "premium",
+              "gama-alta",
+              "especial"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cuatro-gallos-mosto-verde-quebranta-700ml.png"
+          },
+          {
+            "name": "Don Santiago Mosto Verde Torontel",
+            "brand": "Don Santiago",
+            "presentations": [{ "type": "Botella 500ml", "price": "65.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "torontel",
+              "premium",
+              "gama-alta",
+              "especial",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/don-santiago-mosto-verde-torontel-500ml.png"
+          },
+          {
+            "name": "Don Santiago Mosto Verde Italia",
+            "brand": "Don Santiago",
+            "presentations": [{ "type": "Botella 500ml", "price": "65.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "italia",
+              "premium",
+              "gama-alta",
+              "especial",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/don-santiago-mosto-verde-italia-500ml.png"
+          },
+          {
+            "name": "Don Santiago Mosto Verde Quebranta",
+            "brand": "Don Santiago",
+            "presentations": [{ "type": "Botella 500ml", "price": "65.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "quebranta",
+              "premium",
+              "gama-alta",
+              "especial"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/don-santiago-mosto-verde-quebranta-500ml.png"
+          },
+          {
+            "name": "Portón Mosto Verde Acholado",
+            "brand": "Portón",
+            "presentations": [{ "type": "Botella 750ml", "price": "78.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "acholado",
+              "premium",
+              "gama-alta",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/porton-mosto-verde-acholado-750ml.png"
+          },
+          {
+            "name": "Portón Mosto Verde Italia",
+            "brand": "Portón",
+            "presentations": [{ "type": "Botella 750ml", "price": "78.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "italia",
+              "premium",
+              "gama-alta",
+              "luxury",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/porton-mosto-verde-italia-750ml.png"
+          },
+          {
+            "name": "Portón Mosto Verde Quebranta",
+            "brand": "Portón",
+            "presentations": [{ "type": "Botella 750ml", "price": "78.00" }],
+            "tags": [
+              "pisco",
+              "popular",
+              "nacional",
+              "mosto-verde",
+              "quebranta",
+              "premium",
+              "gama-alta",
+              "luxury"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/porton-mosto-verde-quebranta-750ml.png"
+          }
+        ]
+      },
+      "rtd": {
+        "title": "RTD (Ready to Drink)",
+        "icon": "🍹",
+        "description": "Bebidas listas para beber, ideales para disfrutar en cualquier momento.",
+        "products": [
+          {
+            "name": "Wild Sex on the Beach",
+            "brand": "Wild",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "frutal",
+              "dulce",
+              "tropical",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/wild-sex-on-the-beach.png"
+          },
+          {
+            "name": "Wild Passion Fruit",
+            "brand": "Wild",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "frutal",
+              "maracuya",
+              "tropical",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/wild-passion-fruit.png"
+          },
+          {
+            "name": "Wild Fresh Apple",
+            "brand": "Wild",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "frutal",
+              "manzana",
+              "refrescante",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/wild-fresh-apple.png"
+          },
+          {
+            "name": "Wild Tropical Orange",
+            "brand": "Wild",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "frutal",
+              "naranja",
+              "tropical",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/wild-tropical-orange.png"
+          },
+          {
+            "name": "Chilcano Bar Naranja",
+            "brand": "Chilcano Bar",
+            "presentations": [{ "type": "Botella 355ml", "price": "7.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "chilcano",
+              "naranja",
+              "citrico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-bar-naranja.png"
+          },
+          {
+            "name": "Chilcano Bar Cranberry",
+            "brand": "Chilcano Bar",
+            "presentations": [{ "type": "Botella 355ml", "price": "7.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "chilcano",
+              "cranberry",
+              "frutal"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-bar-strawberry.png"
+          },
+          {
+            "name": "Chilcano Bar Limón",
+            "brand": "Chilcano Bar",
+            "presentations": [{ "type": "Botella 355ml", "price": "7.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "chilcano",
+              "limon",
+              "citrico",
+              "clasico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-bar-limon.png"
+          },
+          {
+            "name": "Chilcano Bar Maracuyá",
+            "brand": "Chilcano Bar",
+            "presentations": [{ "type": "Botella 355ml", "price": "7.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "chilcano",
+              "maracuya",
+              "tropical"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-bar-maracuya.png"
+          },
+          {
+            "name": "Smirnoff Ice Green Apple",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Botella 350ml", "price": "9.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "premium",
+              "manzana",
+              "refrescante"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-ice-green-apple.png"
+          },
+          {
+            "name": "Smirnoff Ice Original",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Botella 350ml", "price": "9.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "premium",
+              "clasico",
+              "refrescante"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-ice-original.png"
+          },
+          {
+            "name": "Hit Piña Colada",
+            "brand": "Hit",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "ron",
+              "popular",
+              "tropical",
+              "piña",
+              "coco",
+              "dulce",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/hit-pin%CC%83a-colada.png"
+          },
+          {
+            "name": "Hit Cuba Libre",
+            "brand": "Hit",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "ron",
+              "popular",
+              "cuba-libre",
+              "cola",
+              "clasico",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/hit-cuba-libre.png"
+          },
+          {
+            "name": "Hit Chilcano de Ron",
+            "brand": "Hit",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "ron",
+              "popular",
+              "chilcano",
+              "nacional",
+              "refrescante",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/hit-chilcano-ron.png"
+          },
+          {
+            "name": "Hit Mojito",
+            "brand": "Hit",
+            "presentations": [{ "type": "Botella 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "ron",
+              "popular",
+              "mojito",
+              "menta",
+              "refrescante",
+              "clasico",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/hit-mojito.png"
+          },
+          {
+            "name": "Piscano Cranberry",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 275ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "cranberry",
+              "frutal",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-cranberry.png"
+          },
+          {
+            "name": "Piscano Limón",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 275ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "limon",
+              "citrico",
+              "clasico",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-limon.png"
+          },
+          {
+            "name": "Piscano Naranja",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 275ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "naranja",
+              "citrico",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-naranja.png"
+          },
+          {
+            "name": "Piscano Manzana",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 275ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "manzana",
+              "frutal",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-manzana.png"
+          },
+          {
+            "name": "Piscano Maracuyá",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 275ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "maracuya",
+              "tropical",
+              "pequeño"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-maracuya.png"
+          },
+          {
+            "name": "Piscano Sour Piña Colada",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 700ml", "price": "18.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "pisco-sour",
+              "piña",
+              "coco",
+              "cremoso",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-sour-pin%CC%83a-colada.png"
+          },
+          {
+            "name": "Piscano Sour Maracuyá",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 700ml", "price": "18.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "pisco-sour",
+              "maracuya",
+              "tropical",
+              "cremoso",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-sour-maracuya.png"
+          },
+          {
+            "name": "Piscano Sour Mango",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 700ml", "price": "18.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "pisco-sour",
+              "mango",
+              "tropical",
+              "cremoso",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-sour-mango.png"
+          },
+          {
+            "name": "Piscano Sour Limón",
+            "brand": "Piscano",
+            "presentations": [{ "type": "Botella 700ml", "price": "18.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "pisco-sour",
+              "limon",
+              "clasico",
+              "cremoso",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/piscano-sour-limon.png"
+          },
+          {
+            "name": "Viña Vieja Malbec",
+            "brand": "Viña Vieja",
+            "presentations": [{ "type": "Lata 473ml", "price": "10.00" }],
+            "tags": [
+              "rtd",
+              "vino",
+              "popular",
+              "nacional",
+              "malbec",
+              "tinto",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vin%CC%83a-vieja-malbec-can.png"
+          },
+          {
+            "name": "Viña Vieja Gran Borgoña",
+            "brand": "Viña Vieja",
+            "presentations": [{ "type": "Lata 473ml", "price": "10.00" }],
+            "tags": [
+              "rtd",
+              "vino",
+              "popular",
+              "nacional",
+              "borgoña",
+              "tinto",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vin%CC%83a-vieja-gran-borgon%CC%83a-can.png"
+          },
+          {
+            "name": "Viña Vieja Gran Rosé",
+            "brand": "Viña Vieja",
+            "presentations": [{ "type": "Lata 473ml", "price": "10.00" }],
+            "tags": [
+              "rtd",
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "frutal",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vin%CC%83a-vieja-gran-rose-can.png"
+          },
+          {
+            "name": "Smirnoff Ice Green Apple",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Lata 350ml", "price": "8.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "premium",
+              "manzana",
+              "refrescante",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-ice-green-apple-can.png"
+          },
+          {
+            "name": "Smirnoff Ice Original",
+            "brand": "Smirnoff",
+            "presentations": [{ "type": "Lata 350ml", "price": "8.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "premium",
+              "clasico",
+              "refrescante",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/smirnoff-ice-original-can.png"
+          },
+          {
+            "name": "Chilcano Porton Maracuyá",
+            "brand": "Chilcano Porton",
+            "presentations": [{ "type": "Lata 355ml", "price": "12.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "premium",
+              "chilcano",
+              "maracuya",
+              "tropical",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-porton-maracuya-can.png"
+          },
+          {
+            "name": "Chilcano Porton Frutos Rojos",
+            "brand": "Chilcano Porton",
+            "presentations": [{ "type": "Lata 355ml", "price": "12.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "premium",
+              "chilcano",
+              "frutos-rojos",
+              "frutal",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-porton-frutos-rojos-can.png"
+          },
+          {
+            "name": "Chilcano Porton Mango",
+            "brand": "Chilcano Porton",
+            "presentations": [{ "type": "Lata 355ml", "price": "12.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "premium",
+              "chilcano",
+              "mango",
+              "tropical",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-porton-mango.png"
+          },
+          {
+            "name": "Chilcano Porton Limón",
+            "brand": "Chilcano Porton",
+            "presentations": [{ "type": "Lata 355ml", "price": "12.00" }],
+            "tags": [
+              "rtd",
+              "pisco",
+              "popular",
+              "nacional",
+              "premium",
+              "chilcano",
+              "limon",
+              "clasico",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/chilcano-porton-limon.png"
+          },
+          {
+            "name": "Mike's Limón",
+            "brand": "Mike's",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "limon",
+              "refrescante",
+              "dulce",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/mikes-hard-lemonade.png"
+          },
+          {
+            "name": "Mike's Maracuyá",
+            "brand": "Mike's",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "maracuya",
+              "tropical",
+              "dulce",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/mikes-hard-passion-fruit-lemonade.png"
+          },
+          {
+            "name": "Mike's Fresa",
+            "brand": "Mike's",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "fresa",
+              "frutal",
+              "dulce",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/mikes-hard-strawberry-lemonade.png"
+          },
+          {
+            "name": "Mike's Arándanos",
+            "brand": "Mike's",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "rtd",
+              "vodka",
+              "popular",
+              "internacional",
+              "arandanos",
+              "frutal",
+              "dulce",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/mikes-hard-blueberry-lemonade.png"
+          },
+          {
+            "name": "Four Loko White (Frutas Cítricas)",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "citrico",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-white.png"
+          },
+          {
+            "name": "Four Loko Sandía",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "sandia",
+              "frutal",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-sandia.png"
+          },
+          {
+            "name": "Four Loko Maracuyá",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "maracuya",
+              "tropical",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-maracuya.png"
+          },
+          {
+            "name": "Four Loko Purple (Uva)",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "uva",
+              "frutal",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-purple.png"
+          },
+          {
+            "name": "Four Loko Blue",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "frutal",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-blue.png"
+          },
+          {
+            "name": "Four Loko Green (Manzana)",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "manzana",
+              "frutal",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-green.png"
+          },
+          {
+            "name": "Four Loko Gold (Malta Premium)",
+            "brand": "Four Loko",
+            "presentations": [{ "type": "Lata 473ml", "price": "11.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "internacional",
+              "malta",
+              "premium",
+              "energizante",
+              "intenso",
+              "grande",
+              "lata"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/four-loko-gold.png"
+          },
+          {
+            "name": "D'Fiesta Mora",
+            "brand": "D'Fiesta",
+            "presentations": [{ "type": "Botella 2L", "price": "7.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "nacional",
+              "mora",
+              "frutal",
+              "economico",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/dfiesta-mora.png"
+          },
+          {
+            "name": "D'Fiesta Blu",
+            "brand": "D'Fiesta",
+            "presentations": [{ "type": "Botella 2L", "price": "7.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "nacional",
+              "frutal",
+              "economico",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/dfiesta-blu.png"
+          },
+          {
+            "name": "D'Fiesta Maracuya",
+            "brand": "D'Fiesta",
+            "presentations": [{ "type": "Botella 2L", "price": "7.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "nacional",
+              "maracuya",
+              "tropical",
+              "economico",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/dfiesta-maracuya.png"
+          },
+          {
+            "name": "D'Fiesta Piña Colada",
+            "brand": "D'Fiesta",
+            "presentations": [{ "type": "Botella 2L", "price": "7.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "nacional",
+              "piña",
+              "coco",
+              "tropical",
+              "economico",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/dfiesta-pin%CC%83a-colada.png"
+          },
+          {
+            "name": "D'Fiesta Cuba Libre",
+            "brand": "D'Fiesta",
+            "presentations": [{ "type": "Botella 2L", "price": "7.00" }],
+            "tags": [
+              "rtd",
+              "alcoholic-beverage",
+              "popular",
+              "nacional",
+              "cuba-libre",
+              "cola",
+              "economico",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/dfiesta-cuba-libre.png"
+          }
+        ]
+      },
+      "gin": {
+        "title": "Gin",
+        "icon": "🍸",
+        "description": "Gins de alta calidad, ideales para cócteles o disfrutar solos.",
+        "products": [
+          {
+            "name": "Beefeater London Dry",
+            "brand": "Beefeater",
+            "presentations": [{ "type": "Botella 700ml", "price": "70.00" }],
+            "tags": [
+              "gin",
+              "popular",
+              "ingles",
+              "london-dry",
+              "premium",
+              "clasico",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/beefeater-london-dry-700ml.png"
+          },
+          {
+            "name": "Beefeater Pink",
+            "brand": "Beefeater",
+            "presentations": [{ "type": "Botella 700ml", "price": "85.00" }],
+            "tags": [
+              "gin",
+              "popular",
+              "ingles",
+              "pink",
+              "premium",
+              "frutal",
+              "fresa",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/beefeater-pink-700ml.png"
+          },
+          {
+            "name": "Tanqueray London Dry",
+            "brand": "Tanqueray",
+            "presentations": [{ "type": "Botella 700ml", "price": "85.00" }],
+            "tags": [
+              "gin",
+              "popular",
+              "ingles",
+              "london-dry",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tanqueray-london-dry-700ml.png"
+          },
+          {
+            "name": "Bombay Sapphire London Dry",
+            "brand": "Bombay Sapphire",
+            "presentations": [{ "type": "Botella 750ml", "price": "95.00" }],
+            "tags": [
+              "gin",
+              "popular",
+              "ingles",
+              "london-dry",
+              "premium",
+              "gama-alta",
+              "botanicos",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/bombay-sapphire-london-dry-750ml.png"
+          }
+        ]
+      },
+      "vinos": {
+        "title": "Vinos",
+        "icon": "🍷",
+        "description": "Vinos de alta calidad, ideales para acompañar comidas o disfrutar solos.",
+        "products": [
+          {
+            "name": "Viña Vieja Gran Borgoña",
+            "brand": "Viña Vieja",
+            "presentations": [{ "type": "Botella 750ml", "price": "15.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "borgoña",
+              "economico",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vin%CC%83a-vieja-borgon%CC%83a-750ml.png"
+          },
+          {
+            "name": "Viña Vieja Gran Rosé",
+            "brand": "Viña Vieja",
+            "presentations": [{ "type": "Botella 750ml", "price": "15.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "frutal",
+              "economico",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vin%CC%83a-vieja-rose-750ml.png"
+          },
+          {
+            "name": "Viña Vieja Malbec",
+            "brand": "Viña Vieja",
+            "presentations": [{ "type": "Botella 750ml", "price": "15.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "malbec",
+              "economico",
+              "intenso"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/vin%CC%83a-vieja-malbec-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Magdalena",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "blanco",
+              "dulce",
+              "economico",
+              "suave"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-magdalena-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Tinto",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "clasico",
+              "economico",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-tinto-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Blanco",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "blanco",
+              "seco",
+              "economico",
+              "refrescante"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-blanco-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Borgoña",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "borgoña",
+              "economico",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-borgon%CC%83a-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Rosé",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "frutal",
+              "economico",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-rose-750ml.png"
+          },
+          {
+            "name": "Tabernero Borgoña",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "17.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "borgoña",
+              "economico",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-borgon%CC%83a-750ml.png"
+          },
+          {
+            "name": "Tabernero Gran Blanco",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "17.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "blanco",
+              "seco",
+              "economico",
+              "refrescante"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-blanco-750ml.png"
+          },
+          {
+            "name": "Tabernero Gran Tinto",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "17.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "clasico",
+              "economico",
+              "tradicional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-tinto-750ml.png"
+          },
+          {
+            "name": "Tabernero Gran Rosé",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "17.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "frutal",
+              "economico",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-rose-750ml.png"
+          },
+          {
+            "name": "Tabernero TUyo Borgoña",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "18.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "borgoña",
+              "premium",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-tuyo-borgon%CC%83a-750ml.png"
+          },
+          {
+            "name": "Tabernero TUyo Gran Rosé",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "18.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "frutal",
+              "premium",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-tuyo-rose-750ml.png"
+          },
+          {
+            "name": "Tabernero Gran Selección Borgoña",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "23.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "borgoña",
+              "premium",
+              "seleccion",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-seleccion-borgon%CC%83a-750ml.png"
+          },
+          {
+            "name": "Tabernero Gran Selección Rosé",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "23.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "frutal",
+              "premium",
+              "seleccion",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-seleccion-rose-750ml.png"
+          },
+          {
+            "name": "Gato Tinto",
+            "brand": "Gato",
+            "presentations": [{ "type": "Caja 1L", "price": "19.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "chileno",
+              "tinto",
+              "economico",
+              "caja",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/gato-tinto-1l.png"
+          },
+          {
+            "name": "Gato Blanco",
+            "brand": "Gato",
+            "presentations": [{ "type": "Caja 1L", "price": "19.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "chileno",
+              "blanco",
+              "economico",
+              "caja",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/gato-blanco-1l.png"
+          },
+          {
+            "name": "Tacama Rosé Semiseco",
+            "brand": "Tacama",
+            "presentations": [{ "type": "Botella 750ml", "price": "18.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "rose",
+              "semiseco",
+              "premium",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tacama-rose-750ml.png"
+          },
+          {
+            "name": "Tacama Gran Tinto 3 Cepas",
+            "brand": "Tacama",
+            "presentations": [{ "type": "Botella 750ml", "price": "18.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "nacional",
+              "tinto",
+              "3-cepas",
+              "premium",
+              "blend"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tacama-tinto-3-cepas-750ml.png"
+          },
+          {
+            "name": "Frontera Cabernet Sauvignon",
+            "brand": "Frontera",
+            "presentations": [{ "type": "Botella 750ml", "price": "25.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "chileno",
+              "tinto",
+              "cabernet-sauvignon",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/frontera-cabernet-sauvignon-750ml.png"
+          },
+          {
+            "name": "Casillero del Diablo Malbec",
+            "brand": "Casillero del Diablo",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "vino",
+              "popular",
+              "chileno",
+              "tinto",
+              "malbec",
+              "premium",
+              "gama-alta",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/casillero-del-diablo-malbec-750ml.png"
+          }
+        ]
+      },
+      "espumantes": {
+        "title": "Espumantes",
+        "icon": "🥂",
+        "description": "Espumantes de alta calidad, ideales para celebraciones o ocasiones especiales.",
+        "products": [
+          {
+            "name": "Santiago Queirolo Primado",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Botella 750ml", "price": "15.00" }],
+            "tags": [
+              "espumante",
+              "popular",
+              "nacional",
+              "economico",
+              "celebracion",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-primado-750ml.png"
+          },
+          {
+            "name": "Tabernero Especial",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "espumante",
+              "popular",
+              "nacional",
+              "economico",
+              "celebracion",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-especial-750ml.png"
+          },
+          {
+            "name": "Tabernero Especial Rosé",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Botella 750ml", "price": "16.00" }],
+            "tags": [
+              "espumante",
+              "popular",
+              "nacional",
+              "economico",
+              "celebracion",
+              "rose",
+              "frutal"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-especial-rose-750ml.png"
+          },
+          {
+            "name": "Riccadonna Asti",
+            "brand": "Riccadonna",
+            "presentations": [{ "type": "Botella 750ml", "price": "65.00" }],
+            "tags": [
+              "espumante",
+              "popular",
+              "internacional",
+              "italiano",
+              "premium",
+              "celebracion",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/riccadonna-asti-750ml.png"
+          },
+          {
+            "name": "Riccadonna Moscato",
+            "brand": "Riccadonna",
+            "presentations": [{ "type": "Botella 750ml", "price": "65.00" }],
+            "tags": [
+              "espumante",
+              "popular",
+              "internacional",
+              "italiano",
+              "premium",
+              "celebracion",
+              "moscato",
+              "aromático"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/riccadonna-moscato-750ml.png"
+          },
+          {
+            "name": "Riccadonna Ruby",
+            "brand": "Riccadonna",
+            "presentations": [{ "type": "Botella 750ml", "price": "65.00" }],
+            "tags": [
+              "espumante",
+              "popular",
+              "internacional",
+              "italiano",
+              "premium",
+              "celebracion",
+              "ruby",
+              "intenso"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/riccadonna-ruby-750ml.png"
+          }
+        ]
+      },
+      "anisados": {
+        "title": "Anisados",
+        "icon": "⭐",
+        "description": "Licores anisados de alta calidad, ideales para cócteles o disfrutar solos.",
+        "products": [
+          {
+            "name": "Anís Cartujo",
+            "brand": "Cartujo",
+            "presentations": [{ "type": "Botella 750ml", "price": "15.00" }],
+            "tags": [
+              "anisado",
+              "popular",
+              "nacional",
+              "economico",
+              "tradicional",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/anis-cartujo-750ml.png"
+          },
+          {
+            "name": "Anís Najar Crema Especial",
+            "brand": "Najar",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "anisado",
+              "popular",
+              "nacional",
+              "premium",
+              "cremoso",
+              "especial",
+              "dulce"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/anis-najar-crema-especial-750ml.png"
+          },
+          {
+            "name": "Anís Najar Semi Dulce Especial",
+            "brand": "Najar",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "anisado",
+              "popular",
+              "nacional",
+              "premium",
+              "semi-dulce",
+              "especial",
+              "equilibrado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/anis-najar-semi-dulce-especial-750ml.png"
+          },
+          {
+            "name": "Anís Najar Seco Especial",
+            "brand": "Najar",
+            "presentations": [{ "type": "Botella 750ml", "price": "40.00" }],
+            "tags": [
+              "anisado",
+              "popular",
+              "nacional",
+              "premium",
+              "seco",
+              "especial",
+              "intenso"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/anis-najar-seco-especial-750ml.png"
+          }
+        ]
+      },
+      "masLicores": {
+        "title": "Más Licores",
+        "icon": "🍹",
+        "description": "Licores variados de alta calidad, ideales para cócteles o disfrutar solos.",
+        "products": [
+          {
+            "name": "Jägermeister",
+            "brand": "Jägermeister",
+            "presentations": [{ "type": "Botella 700ml", "price": "75.00" }],
+            "tags": [
+              "licor",
+              "popular",
+              "aleman",
+              "herbal",
+              "premium",
+              "digestivo",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jagermeister-700ml.png"
+          },
+          {
+            "name": "Bailey's",
+            "brand": "Bailey's",
+            "presentations": [{ "type": "Botella 750ml", "price": "80.00" }],
+            "tags": [
+              "licor",
+              "popular",
+              "irlandes",
+              "crema",
+              "dulce",
+              "premium",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/baileys-750ml.png"
+          },
+          {
+            "name": "Santiago Queirolo Sangría",
+            "brand": "Santiago Queirolo",
+            "presentations": [{ "type": "Caja 1L", "price": "15.00" }],
+            "tags": [
+              "licor",
+              "popular",
+              "nacional",
+              "sangria",
+              "frutal",
+              "economico",
+              "caja"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/santiago-queirolo-sangria-1l.png"
+          },
+          {
+            "name": "Tabernero Sangría",
+            "brand": "Tabernero",
+            "presentations": [{ "type": "Caja 946ml", "price": "15.00" }],
+            "tags": [
+              "licor",
+              "popular",
+              "nacional",
+              "sangria",
+              "frutal",
+              "economico",
+              "caja"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tabernero-sangria-1l.png"
+          },
+          {
+            "name": "Aguardiente Antioqueño Original",
+            "brand": "Aguardiente Antioqueño",
+            "presentations": [{ "type": "Botella 750ml", "price": "30.00" }],
+            "tags": [
+              "licor",
+              "popular",
+              "colombiano",
+              "aguardiente",
+              "anis",
+              "tradicional",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/aguardiente-antioquen%CC%83o-750ml.png"
+          },
+          {
+            "name": "Aguardiente Antioqueño Sin Azúcar",
+            "brand": "Aguardiente Antioqueño",
+            "presentations": [{ "type": "Botella 750ml", "price": "30.00" }],
+            "tags": [
+              "licor",
+              "popular",
+              "colombiano",
+              "aguardiente",
+              "anis",
+              "sin-azucar",
+              "internacional"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/aguardiente-antioquen%CC%83o-sin-azucar-750ml.png"
+          },
+          {
+            "name": "Jarabe de Goma Sugar Syrup",
+            "brand": "Wislan",
+            "presentations": [{ "type": "Botella 750ml", "price": "12.00" }],
+            "tags": [
+              "jarabe",
+              "popular",
+              "nacional",
+              "azucar",
+              "dulce",
+              "cocteleria",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jarabe-wislan-750ml.png"
+          },
+          {
+            "name": "Jarabe de Goma Granadina Syrup",
+            "brand": "Wislan",
+            "presentations": [{ "type": "Botella 750ml", "price": "12.00" }],
+            "tags": [
+              "jarabe",
+              "popular",
+              "nacional",
+              "granadina",
+              "frutal",
+              "cocteleria",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jarabe-wislan-granadina-750ml.png"
+          },
+          {
+            "name": "Jarabe de Goma Sugar Syrup",
+            "brand": "Kamil",
+            "presentations": [{ "type": "Botella 750ml", "price": "11.00" }],
+            "tags": [
+              "jarabe",
+              "popular",
+              "nacional",
+              "azucar",
+              "dulce",
+              "cocteleria",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jarabe-kamil-750ml.png"
+          },
+          {
+            "name": "Jarabe de Goma Granadina Syrup",
+            "brand": "Kamil",
+            "presentations": [{ "type": "Botella 750ml", "price": "11.00" }],
+            "tags": [
+              "jarabe",
+              "popular",
+              "nacional",
+              "granadina",
+              "frutal",
+              "cocteleria",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/jarabe-kamil-granadina-750ml.png"
+          }
+        ]
+      }
+    }
+  },
+  "tabaco": {
+    "title": "Cigarros & Vapes",
+    "icon": "🚬",
+    "description": "Cigarros y vapes de alta calidad, ideales para fumadores exigentes.",
+    "subcategories": {
+      "cigarros": {
+        "title": "Cigarros",
+        "icon": "🚬",
+        "description": "Cigarros de alta calidad, ideales para fumadores exigentes.",
+        "products": [
+          {
+            "name": "Pall Mall Sunset",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.20" },
+              { "type": "Caja x10", "price": "8.00" },
+              { "type": "Caja x20", "price": "15.50" }
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-sunset.png",
+            "tags": [
+              "suave",
+              "popular",
+              "mentolado",
+              "economico",
+              "caja-disponible"
+            ]
+          },
+          {
+            "name": "Pall Mall Boost",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.20" },
+              { "type": "Caja x10", "price": "8.00" },
+              { "type": "Caja x20", "price": "15.50" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "energizante",
+              "economico",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-boost.png"
+          },
+          {
+            "name": "Pall Mall Click On",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.20" },
+              { "type": "Caja x10", "price": "8.00" },
+              { "type": "Caja x20", "price": "15.50" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "click",
+              "mentolado",
+              "economico",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-click-on.png"
+          },
+          {
+            "name": "Pall Mall Red",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.20" },
+              { "type": "Caja x10", "price": "8.00" },
+              { "type": "Caja x20", "price": "15.50" }
+            ],
+            "tags": [
+              "fuerte",
+              "popular",
+              "clasico",
+              "economico",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-red.png"
+          },
+          {
+            "name": "Pall Mall Blue",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.20" },
+              { "type": "Caja x10", "price": "8.00" },
+              { "type": "Caja x20", "price": "15.50" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "light",
+              "economico",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-blue.png"
+          },
+          {
+            "name": "Pall Mall Black",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.00" },
+              { "type": "Caja x20", "price": "14.00" }
+            ],
+            "tags": ["fuerte", "popular", "intenso", "economico"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-black.png"
+          },
+          {
+            "name": "Pall Mall Doble Click",
+            "brand": "Pall Mall",
+            "presentations": [
+              { "type": "Unidad", "price": "1.20" },
+              { "type": "Caja x20", "price": "15.50" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "click",
+              "mentolado",
+              "doble-capsula",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pall-mall-doble-click.png"
+          },
+          {
+            "name": "Malboro Summer Mix",
+            "brand": "Malboro",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x20", "price": "17.00" }
+            ],
+            "tags": ["suave", "popular", "mentolado", "frutal", "premium"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/malboro-summer-mix.png"
+          },
+          {
+            "name": "Malboro Red",
+            "brand": "Malboro",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x20", "price": "19.00" }
+            ],
+            "tags": ["fuerte", "popular", "clasico", "premium", "intenso"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/malboro-red.png"
+          },
+          {
+            "name": "Malboro Kretek Mint",
+            "brand": "Malboro",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x20", "price": "20.00" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "mentolado",
+              "kretek",
+              "premium",
+              "especial"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/malboro-kretek-mint.png"
+          },
+          {
+            "name": "Lucky Strike Red",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.30" },
+              { "type": "Caja x10", "price": "10.50" },
+              { "type": "Caja x20", "price": "18.50" }
+            ],
+            "tags": [
+              "fuerte",
+              "popular",
+              "clasico",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-red.png"
+          },
+          {
+            "name": "Lucky Strike Fresh",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.30" },
+              { "type": "Caja x10", "price": "10.50" },
+              { "type": "Caja x20", "price": "18.50" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "mentolado",
+              "fresco",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-fresh.png"
+          },
+          {
+            "name": "Lucky Strike Blue",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.30" },
+              { "type": "Caja x10", "price": "10.50" },
+              { "type": "Caja x20", "price": "18.50" }
+            ],
+            "tags": ["suave", "popular", "light", "premium", "caja-disponible"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-blue.png"
+          },
+          {
+            "name": "Lucky Strike Big Chill",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x10", "price": "12.00" },
+              { "type": "Caja x20", "price": "22.00" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "mentolado",
+              "intenso-frio",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-big-chill.png"
+          },
+          {
+            "name": "Lucky Strike Double Chill",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x10", "price": "12.00" },
+              { "type": "Caja x20", "price": "22.00" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "mentolado",
+              "doble-capsula",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-double-chill.png"
+          },
+          {
+            "name": "Lucky Strike Crush",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x10", "price": "12.00" },
+              { "type": "Caja x20", "price": "22.00" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "frutal",
+              "click",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-crush.png"
+          },
+          {
+            "name": "Lucky Strike Wild Mix",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x10", "price": "12.00" },
+              { "type": "Caja x20", "price": "22.00" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "frutal",
+              "mix-sabores",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-wild-mix.png"
+          },
+          {
+            "name": "Lucky Strike Fresh Twist",
+            "brand": "Lucky Strike",
+            "presentations": [
+              { "type": "Unidad", "price": "1.50" },
+              { "type": "Caja x10", "price": "12.00" },
+              { "type": "Caja x20", "price": "22.00" }
+            ],
+            "tags": [
+              "suave",
+              "popular",
+              "mentolado",
+              "twist",
+              "premium",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/lucky-strike-fresh-twist.png"
+          }
+        ]
+      },
+      "vapes": {
+        "title": "Vapes & Cigarrillos Electrónicos",
+        "icon": "💨",
+        "description": "Dispositivos de vapeo modernos y líquidos de alta calidad.",
+        "products": []
+      }
+    }
+  },
+  "confiteria": {
+    "title": "Confitería",
+    "icon": "🍬",
+    "description": "Dulces y snacks variados, ideales para acompañar tus bebidas.",
+    "subcategories": {
+      "gaseosas": {
+        "title": "Gaseosas",
+        "icon": "🥤",
+        "description": "Gaseosas refrescantes, perfectas para acompañar tus comidas o disfrutar solas.",
+        "products": [
+          {
+            "name": "Seven UP",
+            "brand": "Seven UP",
+            "presentations": [{ "type": "Lata 355ml", "price": "5.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "limon-lima",
+              "refrescante",
+              "sin-cola",
+              "citrico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/seven-up-can.png"
+          },
+          {
+            "name": "Pepsi",
+            "brand": "Pepsi",
+            "presentations": [{ "type": "Lata 355ml", "price": "5.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "cola",
+              "refrescante",
+              "clasico",
+              "cafeina"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pepsi-can.png"
+          },
+          {
+            "name": "Crush Naranja",
+            "brand": "Crush",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "naranja",
+              "frutal",
+              "dulce",
+              "citrico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/crush-orange-can.png"
+          },
+          {
+            "name": "Crush Durazno",
+            "brand": "Crush",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "durazno",
+              "frutal",
+              "dulce",
+              "cremoso"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/crush-peach-can.png"
+          },
+          {
+            "name": "Crush Uva",
+            "brand": "Crush",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": ["gaseosa", "popular", "uva", "frutal", "dulce", "morado"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/crush-grape-can.png"
+          },
+          {
+            "name": "Crush Fresa",
+            "brand": "Crush",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "fresa",
+              "frutal",
+              "dulce",
+              "rosado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/crush-strawberry-can.png"
+          },
+          {
+            "name": "Fanta Fresa y Kiwi",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "fresa",
+              "kiwi",
+              "frutal",
+              "dulce",
+              "mix-sabores"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-strawberry-kiwi-can.png"
+          },
+          {
+            "name": "Fanta Exótica",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "maracuya",
+              "frutal",
+              "dulce",
+              "tropical"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-exotic-can.png"
+          },
+          {
+            "name": "Fanta Fresa",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "fresa",
+              "frutal",
+              "dulce",
+              "rosado"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-strawberry-can.png"
+          },
+          {
+            "name": "Fanta Piña",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "piña",
+              "frutal",
+              "dulce",
+              "tropical"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-pineapple-can.png"
+          },
+          {
+            "name": "Fanta Uva",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": ["gaseosa", "popular", "uva", "frutal", "dulce", "morado"],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-grape-can.png"
+          },
+          {
+            "name": "Fanta Naranja",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "naranja",
+              "frutal",
+              "dulce",
+              "citrico",
+              "clasico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-orange-can.png"
+          },
+          {
+            "name": "Fanta Frambuesa",
+            "brand": "Fanta",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "frambuesa",
+              "frutal",
+              "dulce",
+              "berry"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/fanta-berry-can.png"
+          },
+          {
+            "name": "Coca Cola Original",
+            "brand": "Coca Cola",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "cola",
+              "refrescante",
+              "clasico",
+              "cafeina"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/coca-cola-can.png"
+          },
+          {
+            "name": "Coca Cola Vainilla",
+            "brand": "Coca Cola",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "cola",
+              "vainilla",
+              "dulce",
+              "especial"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/coca-cola-vanilla-can.png"
+          },
+          {
+            "name": "Coca Cola Cereza",
+            "brand": "Coca Cola",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "cola",
+              "cereza",
+              "frutal",
+              "especial"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/coca-cola-cherry-can.png"
+          },
+          {
+            "name": "Sprite",
+            "brand": "Sprite",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "limon-lima",
+              "refrescante",
+              "sin-cola",
+              "citrico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/sprite-can.png"
+          },
+          {
+            "name": "Dr Pepper",
+            "brand": "Dr Pepper",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "especial",
+              "especias",
+              "unico",
+              "americano"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/dr-pepper-can.png"
+          },
+          {
+            "name": "Inca Kola",
+            "brand": "Inca Kola",
+            "presentations": [{ "type": "Lata 355ml", "price": "6.50" }],
+            "tags": [
+              "gaseosa",
+              "popular",
+              "nacional",
+              "amarillo",
+              "dulce",
+              "clasico-peruano"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/inca-kola-can.png"
+          }
+        ]
+      },
+      "energizantes": {
+        "title": "Energizantes",
+        "icon": "⚡",
+        "description": "Bebidas energizantes para mantenerte activo y alerta.",
+        "products": [
+          {
+            "name": "Red Bull",
+            "brand": "Red Bull",
+            "presentations": [{ "type": "Lata 250ml", "price": "8.00" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "cafeina",
+              "taurina",
+              "premium",
+              "original"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/red-bull-250ml.png"
+          },
+          {
+            "name": "Red Bull Sugar Free",
+            "brand": "Red Bull",
+            "presentations": [{ "type": "Lata 250ml", "price": "8.00" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "cafeina",
+              "taurina",
+              "premium",
+              "sin-azucar"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/red-bull-light-250ml.png"
+          },
+          {
+            "name": "Monster Energy",
+            "brand": "Monster",
+            "presentations": [{ "type": "Lata 473ml", "price": "9.00" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "cafeina",
+              "taurina",
+              "intenso",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/monster.png"
+          },
+          {
+            "name": "Monster Energy Zero Ultra",
+            "brand": "Monster",
+            "presentations": [{ "type": "Lata 473ml", "price": "9.00" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "cafeina",
+              "taurina",
+              "intenso",
+              "sin-azucar",
+              "grande"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/monster-zero-ultra.png"
+          },
+          {
+            "name": "220v",
+            "brand": "220v",
+            "presentations": [{ "type": "Botella 450ml", "price": "2.00" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "nacional",
+              "economico",
+              "cafeina"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/220v.png"
+          },
+          {
+            "name": "Volt",
+            "brand": "Volt",
+            "presentations": [{ "type": "Botella 300ml", "price": "2.50" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "nacional",
+              "economico",
+              "cafeina"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/volt.png"
+          },
+          {
+            "name": "Volt Pink",
+            "brand": "Volt",
+            "presentations": [{ "type": "Botella 300ml", "price": "2.50" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "nacional",
+              "economico",
+              "cafeina",
+              "frutal"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/volt-pink.png"
+          },
+          {
+            "name": "Volt Maca",
+            "brand": "Volt",
+            "presentations": [{ "type": "Botella 300ml", "price": "2.50" }],
+            "tags": [
+              "energizante",
+              "popular",
+              "nacional",
+              "economico",
+              "cafeina",
+              "maca",
+              "natural"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/volt-maca.png"
+          }
+        ]
+      }
+    }
+  },
+  "cervezas": {
+    "title": "Cervezas",
+    "icon": "🍺",
+    "description": "Cervezas frescas nacionales e importadas, desde las más ligeras hasta las más intensas",
+    "subcategories": {
+      "nacionales": {
+        "title": "Cervezas Nacionales",
+        "icon": "🇵🇪",
+        "description": "Las mejores cervezas peruanas, desde las más populares hasta las premium.",
+        "products": [
+          {
+            "name": "Pilsen Callao - 630 ml",
+            "brand": "Pilsen Callao",
+            "presentations": [
+              { "type": "Unidad", "price": "6.50" },
+              { "type": "Caja x12", "price": "75.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pilsen-630ml.png"
+          },
+          {
+            "name": "Pilsen Callao - 1 litro",
+            "brand": "Pilsen Callao",
+            "presentations": [
+              { "type": "Unidad", "price": "9.00" },
+              { "type": "Caja x12", "price": "105.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "grande",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pilsen-1l.png"
+          },
+          {
+            "name": "Pilsen Callao - 473 ml",
+            "brand": "Pilsen Callao",
+            "presentations": [
+              { "type": "Unidad", "price": "5.50" },
+              { "type": "Six Pack", "price": "32.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pilsen-473ml.png"
+          },
+          {
+            "name": "Pilsen Callao - 355 ml",
+            "brand": "Pilsen Callao",
+            "presentations": [
+              { "type": "Unidad", "price": "4.50" },
+              { "type": "Six Pack", "price": "26.00" },
+              { "type": "Twelve Pack", "price": "50.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "pack-disponible",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pilsen-355mlx6.png"
+          },
+          {
+            "name": "Pilsen Callao - 305 ml",
+            "brand": "Pilsen Callao",
+            "presentations": [
+              { "type": "Unidad", "price": "4.00" },
+              { "type": "Six Pack", "price": "23.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "pack-disponible",
+              "economico"
+            ],
+
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/pilsen-355mlx6.png"
+          },
+          {
+            "name": "Cristal - 630 ml",
+            "brand": "Cristal",
+            "presentations": [
+              { "type": "Unidad", "price": "6.50" },
+              { "type": "Caja x12", "price": "75.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cristal-630ml.png"
+          },
+          {
+            "name": "Cristal - 1 litro",
+            "brand": "Cristal",
+            "presentations": [
+              { "type": "Unidad", "price": "9.00" },
+              { "type": "Caja x12", "price": "105.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "grande",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cristal-1l.png"
+          },
+          {
+            "name": "Cristal - 473 ml",
+            "brand": "Cristal",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Six Pack", "price": "29.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cristal-473ml.png"
+          },
+          {
+            "name": "Cristal - 355 ml",
+            "brand": "Cristal",
+            "presentations": [
+              { "type": "Unidad", "price": "4.00" },
+              { "type": "Six Pack", "price": "23.00" },
+              { "type": "Twelve Pack", "price": "45.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "ligera",
+              "refrescante",
+              "pack-disponible",
+              "economico"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cristal-355mlx6.png"
+          },
+          {
+            "name": "Cusqueña Negra - 620 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "7.00" },
+              { "type": "Caja x12", "price": "80.00" }
+            ],
+            "tags": [
+              "negra",
+              "popular",
+              "nacional",
+              "premium",
+              "maltosa",
+              "intensa",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-negra-620ml.png"
+          },
+          {
+            "name": "Cusqueña Trigo - 620 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "7.00" },
+              { "type": "Caja x12", "price": "80.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "premium",
+              "trigo",
+              "suave",
+              "caja-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-trigo-620ml.png"
+          },
+          {
+            "name": "Cusqueña Negra - 473 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "6.00" },
+              { "type": "Six Pack", "price": "35.00" }
+            ],
+
+            "tags": [
+              "negra",
+              "popular",
+              "nacional",
+              "premium",
+              "maltosa",
+              "intensa",
+              "pack-disponible"
+            ],
+
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-negra-473ml.png"
+          },
+          {
+            "name": "Cusqueña Trigo - 473 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "6.00" },
+              { "type": "Six Pack", "price": "35.00" }
+            ],
+
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "premium",
+              "trigo",
+              "suave",
+              "pack-disponible"
+            ],
+
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-trigo-473ml.png"
+          },
+          {
+            "name": "Cusqueña Negra - 355 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Six Pack", "price": "29.00" }
+            ],
+
+            "tags": [
+              "negra",
+              "popular",
+              "nacional",
+              "premium",
+              "maltosa",
+              "intensa",
+              "pack-disponible"
+            ],
+
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-negra-355ml.png"
+          },
+          {
+            "name": "Cusqueña Trigo - 355 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Six Pack", "price": "29.00" }
+            ],
+
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "premium",
+              "trigo",
+              "suave",
+              "pack-disponible"
+            ],
+
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-trigo-355ml.png"
+          },
+          {
+            "name": "Cusqueña Negra - 310 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "4.50" },
+              { "type": "Six Pack", "price": "26.00" }
+            ],
+
+            "tags": [
+              "negra",
+              "popular",
+              "nacional",
+              "premium",
+              "maltosa",
+              "intensa",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-negra-310ml.png"
+          },
+          {
+            "name": "Cusqueña Trigo - 310 ml",
+            "brand": "Cusqueña",
+            "presentations": [
+              { "type": "Unidad", "price": "4.50" },
+              { "type": "Six Pack", "price": "26.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "premium",
+              "trigo",
+              "suave",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/cusquen%CC%83a-trigo-310ml.png"
+          },
+          {
+            "name": "Golden - 473 ml",
+            "brand": "Golden",
+            "presentations": [
+              { "type": "Unidad", "price": "4.00" },
+              { "type": "Six Pack", "price": "23.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "economico",
+              "ligera",
+              "refrescante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/golden-473ml.png"
+          },
+          {
+            "name": "Tres Cruces - 473 ml",
+            "brand": "Tres Cruces",
+            "presentations": [
+              { "type": "Unidad", "price": "4.00" },
+              { "type": "Six Pack", "price": "23.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "economico",
+              "ligera",
+              "refrescante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tres-cruces-473ml.png"
+          },
+          {
+            "name": "Tres Cruces Light - 473 ml",
+            "brand": "Tres Cruces",
+            "presentations": [
+              { "type": "Unidad", "price": "4.00" },
+              { "type": "Six Pack", "price": "23.00" }
+            ],
+
+            "tags": [
+              "rubia",
+              "popular",
+              "nacional",
+              "economico",
+              "light",
+              "baja-calorias",
+              "refrescante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/tres-cruces-light-473ml.png"
+          }
+        ]
+      },
+      "importadas": {
+        "title": "Cervezas Importadas",
+        "icon": "🌍",
+        "description": "Cervezas internacionales de las mejores marcas del mundo.",
+        "products": [
+          {
+            "name": "Corona Extra - 330 ml",
+            "brand": "Corona",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Six Pack", "price": "29.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "mexicana",
+              "ligera",
+              "refrescante",
+              "premium",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/corona-extra.png"
+          },
+          {
+            "name": "Coronita Extra - 210 ml",
+            "brand": "Corona",
+            "presentations": [
+              { "type": "Unidad", "price": "3.50" },
+              { "type": "Six Pack", "price": "20.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "mexicana",
+              "ligera",
+              "refrescante",
+              "pequeña",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/coronita-extra.png"
+          },
+          {
+            "name": "Corona Cero - 355 ml",
+            "brand": "Corona",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Six Pack", "price": "29.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "mexicana",
+              "sin-alcohol",
+              "ligera",
+              "refrescante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/corona-cero.png"
+          },
+          {
+            "name": "Stella Artois - 330 ml",
+            "brand": "Stella Artois",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Six Pack", "price": "29.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "belga",
+              "premium",
+              "elegante",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/stella-artois-330ml.png"
+          },
+          {
+            "name": "Heineken - 330 ml",
+            "brand": "Heineken",
+            "presentations": [
+              { "type": "Unidad", "price": "5.50" },
+              { "type": "Six Pack", "price": "32.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "holandesa",
+              "premium",
+              "lager",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/heineken-330ml.png"
+          },
+          {
+            "name": "Heineken - 473 ml",
+            "brand": "Heineken",
+            "presentations": [
+              { "type": "Unidad", "price": "5.00" },
+              { "type": "Four Pack", "price": "19.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "holandesa",
+              "premium",
+              "lager",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/heineken-473ml.png"
+          },
+          {
+            "name": "Heineken - 310 ml",
+            "brand": "Heineken",
+            "presentations": [
+              { "type": "Unidad", "price": "4.00" },
+              { "type": "Six Pack", "price": "23.00" }
+            ],
+            "tags": [
+              "rubia",
+              "popular",
+              "internacional",
+              "holandesa",
+              "premium",
+              "lager",
+              "pack-disponible"
+            ],
+            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/heineken-310ml.png"
+          }
+        ]
+      },
+      "artesanales": {
+        "title": "Cervezas Artesanales",
+        "icon": "🍻",
+        "description": "Cervezas artesanales y especiales de producción limitada.",
+        "products": []
+      }
+    }
+  }
+}

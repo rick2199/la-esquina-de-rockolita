@@ -1,0 +1,329 @@
+---
+// Componente de Dialog para mostrar productos con filtros
+export interface Props {
+  subcategoryTitle: string;
+  subcategoryDescription: string;
+  products: Array<{
+    name: string;
+    brand: string;
+    presentations: Array<{
+      type: string;
+      price: string;
+    }>;
+    img: string;
+    tags: string[];
+  }>;
+}
+
+const { subcategoryTitle, subcategoryDescription, products } = Astro.props;
+
+// Obtener todas las marcas únicas para el filtro
+const allBrands = new Set<string>();
+products.forEach(product => allBrands.add(product.brand));
+const brands = Array.from(allBrands).sort();
+
+// Obtener precios mínimos para cada producto
+const productsWithMinPrice = products.map(product => ({
+  ...product,
+  minPrice: Math.min(...product.presentations.map(p => parseFloat(p.price)))
+}));
+---
+
+<!-- El dialog se maneja con JavaScript y está inicialmente oculto -->
+<div id="product-dialog" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden">
+  <div class="bg-white rounded-lg max-w-6xl w-full max-h-[95vh] overflow-hidden flex flex-col">
+    
+    <!-- Header del dialog -->
+    <div class="flex items-center justify-between p-6 border-b">
+      <div>
+        <h2 id="dialog-title" class="text-2xl font-bold text-gray-900">
+          {subcategoryTitle}
+        </h2>
+        <p id="dialog-description" class="text-sm text-gray-600 mt-1">
+          {subcategoryDescription}
+        </p>
+      </div>
+      <button
+        id="close-dialog"
+        class="p-2 hover:bg-gray-100 rounded-full transition-colors"
+        aria-label="Cerrar"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Panel de filtros simplificado -->
+    <div class="border-b bg-gray-50 p-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        
+        <!-- Búsqueda -->
+        <div class="md:col-span-2">
+          <div class="relative">
+            <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Buscar productos..."
+              class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-accent focus:border-accent"
+            />
+          </div>
+        </div>
+        
+        <!-- Filtro por marca -->
+        <select
+          id="brand-filter"
+          class="px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-accent focus:border-accent"
+        >
+          <option value="">Todas las marcas</option>
+          {brands.map(brand => (
+            <option value={brand.toLowerCase()}>{brand}</option>
+          ))}
+        </select>
+
+        <!-- Filtro por precio -->
+        <select
+          id="price-filter"
+          class="px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-accent focus:border-accent"
+        >
+          <option value="">Precio máximo</option>
+          <option value="10">Hasta S/. 10</option>
+          <option value="25">Hasta S/. 25</option>
+          <option value="50">Hasta S/. 50</option>
+          <option value="100">Hasta S/. 100</option>
+          <option value="200">Hasta S/. 200</option>
+        </select>
+      </div>
+
+      <!-- Botón limpiar filtros -->
+      <div class="mt-4 flex justify-end">
+        <button
+          id="clear-filters"
+          class="px-4 py-2 bg-gray-100 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-200 transition-colors"
+        >
+          Limpiar filtros
+        </button>
+      </div>
+    </div>
+
+    <!-- Grid de productos -->
+    <div class="flex-1 overflow-y-auto p-6">
+      <div id="products-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        {productsWithMinPrice.map((product, index) => (
+          <div 
+            class="product-card bg-white rounded-lg border shadow-sm hover:shadow-md transition-shadow duration-200 h-full flex flex-col"
+            data-name={product.name.toLowerCase()}
+            data-brand={product.brand.toLowerCase()}
+            data-min-price={product.minPrice}
+            data-tags={product.tags.join(',')}
+            data-presentations={product.presentations.map(p => p.type.toLowerCase()).join(',')}
+          >
+            <!-- Imagen del producto -->
+            <div class="aspect-[3/4] p-4 flex items-center justify-center bg-gray-50 rounded-t-lg flex-shrink-0">
+              <img 
+                src={product.img} 
+                alt={product.name}
+                class="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-200"
+                loading="lazy"
+              />
+            </div>
+            
+            <!-- Contenido de la tarjeta -->
+            <div class="p-4 flex flex-col flex-grow">
+              <h3 class="font-semibold text-gray-900 mb-3 text-sm leading-tight h-10 flex items-start flex-shrink-0">
+                <span class="line-clamp-2">{product.name}</span>
+              </h3>
+              
+              <!-- Lista de presentaciones y precios -->
+              <div class="flex-grow">
+                <div class="space-y-2">
+                  {product.presentations.map((presentation) => (
+                    <div class="flex items-center justify-between p-2 rounded-md bg-gray-50 border border-gray-100 hover:bg-accent/5 hover:border-accent/20 transition-colors min-h-[2.5rem]">
+                      <span class="text-xs text-gray-700 font-medium flex-1 pr-2">
+                        {presentation.type}
+                      </span>
+                      <span class="text-xs font-bold text-accent whitespace-nowrap flex-shrink-0">
+                        S/. {presentation.price}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              <!-- Badge para múltiples presentaciones -->
+              {product.presentations.length > 1 && (
+                <div class="mt-3 pt-2 border-t border-gray-100 flex-shrink-0">
+                  <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-accent/10 text-accent">
+                    {product.presentations.length} presentaciones
+                  </span>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      <!-- Mensaje cuando no hay productos después de filtrar -->
+      <div id="no-products" class="text-center py-12 hidden">
+        <div class="text-6xl mb-4">🔍</div>
+        <p class="text-gray-500 text-lg mb-2">No se encontraron productos</p>
+        <p class="text-gray-400 text-sm">Intenta ajustar los filtros de búsqueda</p>
+      </div>
+
+      <!-- Mensaje cuando la categoría está vacía -->
+      {products.length === 0 && (
+        <div class="text-center py-12">
+          <div class="text-6xl mb-4">📦</div>
+          <p class="text-gray-500 text-lg mb-2">No hay productos disponibles</p>
+          <p class="text-gray-400 text-sm">Próximamente añadiremos más productos a esta categoría</p>
+        </div>
+      )}
+    </div>
+
+    <!-- Footer con contador -->
+    <div class="border-t bg-gray-50 px-6 py-3">
+      <p id="results-count" class="text-sm text-gray-600">
+        Mostrando {products.length} productos
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Clases para filtrado */
+  .product-card.filtered-out {
+    display: none;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+  }
+</style>
+
+<script define:vars={{ products: productsWithMinPrice }}>
+  // Función para inicializar el dialog de productos
+  function initProductDialog() {
+    const dialog = document.getElementById('product-dialog');
+    const closeBtn = document.getElementById('close-dialog');
+    const searchInput = document.getElementById('search-input');
+    const brandFilter = document.getElementById('brand-filter');
+    const priceFilter = document.getElementById('price-filter');
+    const clearFiltersBtn = document.getElementById('clear-filters');
+    const resultsCount = document.getElementById('results-count');
+    const noProductsMsg = document.getElementById('no-products');
+    
+    let hasActiveFilters = false;
+
+    // Aplicar todos los filtros
+    function applyFilters() {
+      const searchTerm = searchInput.value.toLowerCase();
+      const selectedBrand = brandFilter.value;
+      const maxPrice = priceFilter.value ? parseFloat(priceFilter.value) : null;
+      
+      // Determinar si hay filtros activos
+      hasActiveFilters = searchTerm !== "" || selectedBrand !== "" || maxPrice !== null;
+      
+      const productCards = document.querySelectorAll('.product-card');
+      let visibleCount = 0;
+      
+      productCards.forEach(card => {
+        let isVisible = true;
+        
+        // Filtro por nombre
+        if (searchTerm && !card.dataset.name.includes(searchTerm)) {
+          isVisible = false;
+        }
+        
+        // Filtro por marca
+        if (selectedBrand && card.dataset.brand !== selectedBrand) {
+          isVisible = false;
+        }
+        
+        // Filtro por precio
+        if (maxPrice !== null && parseFloat(card.dataset.minPrice) > maxPrice) {
+          isVisible = false;
+        }
+        
+        // Aplicar visibilidad
+        if (isVisible) {
+          card.classList.remove('filtered-out');
+          visibleCount++;
+        } else {
+          card.classList.add('filtered-out');
+        }
+      });
+      
+      // Actualizar contador
+      resultsCount.textContent = `Mostrando ${visibleCount} de ${products.length} productos`;
+      
+      // Solo mostrar "no productos" si hay filtros activos y no hay resultados
+      noProductsMsg.classList.add('hidden');
+      if (hasActiveFilters && visibleCount === 0 && products.length > 0) {
+        noProductsMsg.classList.remove('hidden');
+      }
+    }
+
+    // Limpiar todos los filtros
+    function clearAllFilters() {
+      searchInput.value = '';
+      brandFilter.value = '';
+      priceFilter.value = '';
+      hasActiveFilters = false;
+      applyFilters();
+    }
+
+    // Event listeners
+    closeBtn.addEventListener('click', () => {
+      dialog.classList.add('hidden');
+      document.body.style.overflow = '';
+    });
+
+    searchInput.addEventListener('input', applyFilters);
+    brandFilter.addEventListener('change', applyFilters);
+    priceFilter.addEventListener('change', applyFilters);
+    clearFiltersBtn.addEventListener('click', clearAllFilters);
+
+    // Cerrar dialog al hacer clic fuera
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) {
+        dialog.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Escape key para cerrar
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !dialog.classList.contains('hidden')) {
+        dialog.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+
+  // Función global para abrir el dialog
+  window.openProductDialog = function(subcategoryKey, title, description, productList) {
+    const dialog = document.getElementById('product-dialog');
+    const dialogTitle = document.getElementById('dialog-title');
+    const dialogDescription = document.getElementById('dialog-description');
+    const noProductsMsg = document.getElementById('no-products');
+    
+    dialogTitle.textContent = title;
+    dialogDescription.textContent = description;
+    
+    // Asegurar que el mensaje "no productos" esté oculto al abrir
+    if (noProductsMsg) noProductsMsg.classList.add('hidden');
+    
+    dialog.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  };
+
+  // Inicializar cuando se carga el DOM
+  document.addEventListener('DOMContentLoaded', initProductDialog);
+</script>

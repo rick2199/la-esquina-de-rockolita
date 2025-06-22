@@ -1,0 +1,646 @@
+---
+// Página de cervezas con subcategorías
+import "../styles/globals.css"
+import catalogData from "../data/catalog.json"
+
+const cervezasData = catalogData.cervezas
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Cervezas - La Esquina de Rockolita. Cervezas nacionales e importadas"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cervezas - La Esquina de Rockolita</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  </head>
+
+  <body class="font-brand bg-rockolita-cream">
+    <!-- Header -->
+    <header class="rockolita-header relative overflow-hidden">
+      <!-- Efecto de fondo sutil -->
+      <div class="absolute inset-0 bg-gradient-to-br from-white via-rockolita-cream/30 to-rockolita-cream/50"></div>
+      
+      <div class="container mx-auto px-4 py-8 relative">
+        <div class="text-center">
+          <a href="/" class="group hover:opacity-90 transition-all duration-300">
+            
+            <!-- Logo principal con animaciones mejoradas -->
+            <div class="flex items-center justify-center gap-4 mb-4">
+              <!-- Perro izquierdo -->
+              <div class="text-4xl md:text-5xl rockolita-wiggle transform group-hover:scale-110 transition-transform duration-300">
+                🐕
+              </div>
+              
+              <!-- Logo central con efecto -->
+              <div class="relative">
+                <!-- Sombra suave detrás del logo -->
+                <div class="absolute inset-0 bg-rockolita-primary/20 rounded-full blur-xl transform scale-110"></div>
+                
+                <!-- Logo principal -->
+                <img
+                  src="https://d2ns2vv9idwaki.cloudfront.net/licoreria/logo-la-esquina-de-rockolita.png"
+                  alt="La Esquina de Rockolita"
+                  class="relative w-36 md:w-40 h-auto mx-auto transform group-hover:scale-105 transition-transform duration-300 filter drop-shadow-lg"
+                  loading="lazy"
+                />
+              </div>
+              
+              <!-- Cerveza derecha -->
+              <div class="text-4xl md:text-5xl rockolita-wiggle transform group-hover:scale-110 transition-transform duration-300">
+                🍺
+              </div>
+            </div>
+
+            <!-- Subtitle con mejor espaciado -->
+            <div class="flex items-center justify-center gap-3 mb-2">
+              <div class="w-8 md:w-12 h-0.5 bg-gradient-to-r from-transparent via-rockolita-primary to-rockolita-primary rounded-full"></div>
+              <p class="brand-subtitle text-rockolita-secondary text-sm md:text-base uppercase tracking-wider font-medium">
+                Catálogo Digital
+              </p>
+              <div class="w-8 md:w-12 h-0.5 bg-gradient-to-l from-transparent via-rockolita-primary to-rockolita-primary rounded-full"></div>
+            </div>
+
+            <!-- Tagline adicional -->
+            <p class="brand-text text-rockolita-secondary/80 text-xs mt-2 font-light">
+              Tu esquina de confianza
+            </p>
+            
+          </a>
+        </div>
+      </div>
+
+      <!-- Línea decorativa inferior -->
+      <div class="h-1 bg-gradient-to-r from-rockolita-primary/30 via-rockolita-primary to-rockolita-primary/30"></div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container mx-auto px-4 py-8">
+      <div class="max-w-6xl mx-auto">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-sm text-rockolita-secondary mb-8">
+          <a href="/" class="hover:text-rockolita-primary transition-colors font-medium">🏠 Inicio</a>
+          <span class="text-rockolita-primary">→</span>
+          <span class="text-rockolita-dark font-semibold">{cervezasData.title}</span>
+        </nav>
+
+        <!-- Header de categoría -->
+        <div class="text-center mb-12">
+          <div class="text-6xl md:text-8xl mb-6 rockolita-wiggle">{cervezasData.icon}</div>
+          <h1 class="brand-title text-3xl md:text-4xl text-rockolita-dark mb-4">
+            {cervezasData.title}
+          </h1>
+          <p class="brand-text text-rockolita-secondary text-lg max-w-2xl mx-auto">
+            {cervezasData.description}
+          </p>
+          <div class="golden-line mt-8">
+            <div class="text-xl">🍻</div>
+          </div>
+        </div>
+
+        <!-- Grid de subcategorías -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto relative">
+          {
+            Object.entries(cervezasData.subcategories).map(
+              ([subKey, subcategory]) => (
+                <button
+                  onclick={
+                    subcategory.products.length > 0 
+                      ? `openProductDialog('${subKey}', '${subcategory.title}', '${subcategory.description}', ${JSON.stringify(subcategory.products)})`
+                      : `showComingSoon('${subcategory.title}')`
+                  }
+                  class={`rockolita-card group p-8 text-center transition-all duration-300 ${
+                    subcategory.products.length === 0 ? 'opacity-75' : ''
+                  }`}
+                >
+                  <div class="text-4xl md:text-6xl mb-4 group-hover:animate-wiggle transition-transform duration-300">
+                    {subcategory.icon}
+                  </div>
+                  <h3 class="brand-subtitle font-bold text-rockolita-dark group-hover:text-rockolita-primary transition-colors mb-2 text-lg">
+                    {subcategory.title}
+                  </h3>
+                  <p class="brand-text text-sm text-rockolita-secondary mb-4">
+                    {subcategory.description}
+                  </p>
+                  <div class={`inline-flex items-center px-4 py-2 rounded-full text-sm font-medium ${
+                    subcategory.products.length > 0 
+                      ? 'bg-rockolita-primary/20 text-rockolita-secondary border border-rockolita-primary/30'
+                      : 'bg-yellow-100 text-yellow-700 border border-yellow-300'
+                  }`}>
+                    {subcategory.products.length > 0
+                      ? `${subcategory.products.length} productos`
+                      : "Próximamente"}
+                  </div>
+
+                  {/* Badge para próximamente */}
+                  {subcategory.products.length === 0 && (
+                    <div class="absolute top-4 right-4 bg-yellow-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                      Pronto
+                    </div>
+                  )}
+                </button>
+              )
+            )
+          }
+        </div>
+
+        <!-- Información especial sobre cervezas -->
+        <div class="mt-12 warning-box p-6 max-w-4xl mx-auto">
+          <div class="flex items-start gap-4">
+            <div class="text-3xl">⚠️</div>
+            <div>
+              <h3 class="brand-subtitle font-bold text-rockolita-red mb-2">Consumo Responsable</h3>
+              <p class="brand-text text-rockolita-dark text-sm leading-relaxed">
+                <strong>EL CONSUMO EXCESIVO DE ALCOHOL ES DAÑINO</strong> • 
+                La venta está prohibida a menores de 18 años • 
+                Todos nuestros licores son 100% originales y de calidad garantizada
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botón volver -->
+        <div class="mt-12 text-center">
+          <a
+            href="/"
+            class="rockolita-btn inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-300"
+          >
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+            </svg>
+            Volver al inicio
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Dialog de productos -->
+    <div
+      id="product-dialog"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden"
+    >
+      <div
+        class="bg-white rounded-lg max-w-6xl w-full max-h-[95vh] overflow-hidden flex flex-col border-4 border-rockolita-primary"
+      >
+        <!-- Header del dialog -->
+        <div class="flex items-center justify-between p-6 border-b-2 border-rockolita-cream rockolita-gradient">
+          <div>
+            <h2 id="dialog-title" class="brand-title text-2xl font-bold text-white"></h2>
+            <p id="dialog-description" class="brand-text text-white/90 text-sm mt-1"></p>
+          </div>
+          <button
+            id="close-dialog"
+            class="p-2 hover:bg-white/20 rounded-full transition-colors text-white"
+            aria-label="Cerrar"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Panel de filtros simplificado -->
+        <div class="border-b bg-rockolita-cream/50 p-4">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <!-- Búsqueda -->
+            <div class="md:col-span-2">
+              <div class="relative">
+                <svg
+                  class="absolute left-3 top-1/2 transform -translate-y-1/2 text-rockolita-secondary w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                <input
+                  type="text"
+                  id="search-input"
+                  placeholder="Buscar cervezas..."
+                  class="w-full pl-10 pr-4 py-2 border-2 border-rockolita-primary/30 rounded-md text-sm focus:ring-2 focus:ring-rockolita-primary focus:border-rockolita-primary bg-white"
+                />
+              </div>
+            </div>
+
+            <!-- Filtro por marca -->
+            <select
+              id="brand-filter"
+              class="px-3 py-2 border-2 border-rockolita-primary/30 rounded-md text-sm focus:ring-2 focus:ring-rockolita-primary focus:border-rockolita-primary bg-white"
+            >
+              <option value="">Todas las marcas</option>
+            </select>
+
+            <!-- Filtro por precio -->
+            <select
+              id="price-filter"
+              class="px-3 py-2 border-2 border-rockolita-primary/30 rounded-md text-sm focus:ring-2 focus:ring-rockolita-primary focus:border-rockolita-primary bg-white"
+            >
+              <option value="">Precio máximo</option>
+              <option value="5">Hasta S/. 5</option>
+              <option value="10">Hasta S/. 10</option>
+              <option value="30">Hasta S/. 30</option>
+              <option value="50">Hasta S/. 50</option>
+              <option value="100">Hasta S/. 100</option>
+            </select>
+          </div>
+
+          <!-- Botón limpiar filtros -->
+          <div class="mt-4 flex justify-end">
+            <button
+              id="clear-filters"
+              class="rockolita-btn-secondary px-4 py-2 rounded-md text-sm font-medium transition-all duration-300"
+            >
+              Limpiar filtros
+            </button>
+          </div>
+        </div>
+
+        <!-- Grid de productos -->
+        <div class="flex-1 overflow-y-auto p-6 bg-rockolita-cream/20">
+          <div
+            id="products-grid"
+            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"
+          >
+            <!-- Los productos se cargan dinámicamente -->
+          </div>
+
+          <!-- Mensaje cuando no hay productos después de filtrar -->
+          <div id="no-products" class="text-center py-12 hidden">
+            <div class="text-6xl mb-4">🔍</div>
+            <p class="brand-subtitle text-rockolita-secondary text-lg mb-2">
+              No se encontraron cervezas
+            </p>
+            <p class="brand-text text-rockolita-secondary/70 text-sm">
+              Intenta ajustar los filtros de búsqueda
+            </p>
+          </div>
+
+          <!-- Mensaje cuando la categoría está vacía -->
+          <div id="empty-category" class="text-center py-12 hidden">
+            <div class="text-6xl mb-4">🍻</div>
+            <p class="brand-subtitle text-rockolita-secondary text-lg mb-2">Próximamente</p>
+            <p class="brand-text text-rockolita-secondary/70 text-sm">
+              Estamos preparando cervezas especiales para esta categoría
+            </p>
+          </div>
+        </div>
+
+        <!-- Footer con contador -->
+        <div class="border-t-2 border-rockolita-cream rockolita-gradient px-6 py-3">
+          <p id="results-count" class="brand-text text-sm text-white font-medium">
+            Mostrando 0 productos
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de próximamente -->
+    <div
+      id="coming-soon-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden"
+    >
+      <div class="bg-white rounded-lg max-w-md w-full p-6 text-center border-4 border-rockolita-primary">
+        <div class="text-6xl mb-4">🍻</div>
+        <h3 id="coming-soon-title" class="brand-title text-xl text-rockolita-dark mb-2"></h3>
+        <p class="brand-text text-rockolita-secondary mb-6">
+          ¡Estamos trabajando para traerte las mejores cervezas artesanales y especiales! 
+          Mantente atento a nuestras novedades.
+        </p>
+        <button
+          id="close-coming-soon"
+          class="rockolita-btn px-6 py-2 rounded-lg font-medium transition-all duration-300"
+        >
+          Entendido
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="rockolita-footer py-6 mt-16">
+      <div class="container mx-auto px-4 text-center">
+        <div class="flex items-center justify-center gap-2 mb-4">
+          <div class="text-2xl">🐕</div>
+          <img
+            src="https://d2ns2vv9idwaki.cloudfront.net/licoreria/logo-la-esquina-de-rockolita.png"
+            alt="La Esquina de Rockolita"
+            class="w-24 h-auto"
+            loading="lazy"
+          />
+          <div class="text-2xl">🍺</div>
+        </div>
+        <div class="brand-text text-xs text-rockolita-cream/80">
+          <p>📍 Calle Camino Real 181, El Agustino - Lima 📞 994 333 604</p>
+          <p class="mt-1">🕒 Horarios de atención: Lunes a Domingo 24 horas</p>
+          <p class="mt-2 text-rockolita-primary font-medium">Tu esquina de confianza 🏪</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+      let currentProducts: any[] = []
+      let hasActiveFilters: boolean = false
+
+      function openProductDialog(
+        subcategoryKey: string,
+        title: string,
+        description: string,
+        products: any[]
+      ) {
+        currentProducts = products
+        hasActiveFilters = false
+        
+        const dialog = document.getElementById("product-dialog") as HTMLElement
+        const dialogTitle = document.getElementById("dialog-title") as HTMLElement
+        const dialogDescription = document.getElementById("dialog-description") as HTMLElement
+        const productsGrid = document.getElementById("products-grid") as HTMLElement
+        const emptyCategory = document.getElementById("empty-category") as HTMLElement
+
+        if (dialogTitle) dialogTitle.textContent = title
+        if (dialogDescription) dialogDescription.textContent = description
+
+        clearAllFilters()
+
+        if (products.length === 0) {
+          if (productsGrid) productsGrid.innerHTML = ""
+          if (emptyCategory) emptyCategory.classList.remove("hidden")
+        } else {
+          if (emptyCategory) emptyCategory.classList.add("hidden")
+          renderProducts(products)
+          generateBrandFilter(products)
+        }
+
+        if (dialog) {
+          dialog.classList.remove("hidden")
+          document.body.style.overflow = "hidden"
+          
+          const noProductsMsg = document.getElementById("no-products") as HTMLElement
+          if (noProductsMsg) noProductsMsg.classList.add("hidden")
+        }
+
+        updateResultsCount()
+      }
+
+      function showComingSoon(categoryTitle: string) {
+        const modal = document.getElementById("coming-soon-modal") as HTMLElement
+        const title = document.getElementById("coming-soon-title") as HTMLElement
+        
+        if (title) title.textContent = categoryTitle
+        if (modal) {
+          modal.classList.remove("hidden")
+          document.body.style.overflow = "hidden"
+        }
+      }
+
+      function renderProducts(products: any[]) {
+        const productsGrid = document.getElementById("products-grid") as HTMLElement
+        if (!productsGrid) return
+        
+        productsGrid.innerHTML = products
+          .map((product: any, index: number) => {
+            const minPrice = Math.min(
+              ...product.presentations.map((p: any) => parseFloat(p.price))
+            )
+
+            return `
+              <div 
+                class="product-card bg-white rounded-lg border-2 border-rockolita-cream shadow-sm hover:shadow-rockolita transition-all duration-200 hover:border-rockolita-primary"
+                data-name="${product.name.toLowerCase()}"
+                data-brand="${product.brand.toLowerCase()}"
+                data-min-price="${minPrice}"
+                data-presentations="${product.presentations.map((p: any) => p.type.toLowerCase()).join(",")}"
+              >
+                <div class="product-image-container aspect-[3/4] p-4 flex items-center justify-center bg-gradient-to-br from-white to-rockolita-cream/30 rounded-t-lg">
+                  <img 
+                    src="${product.img}" 
+                    alt="${product.name}"
+                    class="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-200"
+                    loading="lazy"
+                  />
+                </div>
+                
+                <div class="product-content p-4">
+                  <h3 class="product-title font-semibold text-rockolita-dark mb-3 text-sm leading-tight">
+                    <span class="line-clamp-2">${product.name}</span>
+                  </h3>
+                  
+                  <div class="product-presentations">
+                    <div class="space-y-2">
+                      ${product.presentations
+                        .map(
+                          (presentation: any) => `
+                        <div class="presentation-item flex items-center justify-between p-2 rounded-md bg-rockolita-cream/50 border border-rockolita-primary/20 hover:bg-rockolita-primary/10 hover:border-rockolita-primary/40 transition-all duration-200 min-h-[2.5rem]">
+                          <span class="text-xs text-rockolita-secondary font-medium flex-1 pr-2 truncate" title="${presentation.type}">
+                            ${presentation.type}
+                          </span>
+                          <span class="presentation-price text-xs font-bold text-rockolita-secondary whitespace-nowrap">
+                            S/. ${presentation.price}
+                          </span>
+                        </div>
+                      `
+                        )
+                        .join("")}
+                    </div>
+                    
+                    ${
+                      product.presentations.length > 1
+                        ? `
+                      <div class="mt-3 pt-2 border-t border-rockolita-cream">
+                        <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-rockolita-primary/20 text-rockolita-secondary border border-rockolita-primary/30">
+                          ${product.presentations.length} presentaciones
+                        </span>
+                      </div>
+                    `
+                        : ""
+                    }
+                  </div>
+                </div>
+              </div>
+            `
+          })
+          .join("")
+      }
+
+      function generateBrandFilter(products: any[]) {
+        const brandFilter = document.getElementById("brand-filter") as HTMLElement
+        if (!brandFilter) return
+        
+        const brands = [...new Set(products.map((p: any) => p.brand))].sort()
+
+        brandFilter.innerHTML =
+          '<option value="">Todas las marcas</option>' +
+          brands
+            .map(
+              (brand) =>
+                `<option value="${brand.toLowerCase()}">${brand}</option>`
+            )
+            .join("")
+      }
+
+      function applyFilters() {
+        const searchInput = document.getElementById("search-input") as HTMLInputElement
+        const brandFilter = document.getElementById("brand-filter") as HTMLInputElement
+        const priceFilter = document.getElementById("price-filter") as HTMLInputElement
+        
+        const searchTerm = searchInput ? searchInput.value.toLowerCase() : ""
+        const selectedBrand = brandFilter ? brandFilter.value : ""
+        const maxPrice = priceFilter && priceFilter.value ? parseFloat(priceFilter.value) : null
+
+        hasActiveFilters = searchTerm !== "" || selectedBrand !== "" || maxPrice !== null
+
+        const productCards = document.querySelectorAll(".product-card") as NodeListOf<HTMLElement>
+        let visibleCount = 0
+
+        productCards.forEach((card) => {
+          let isVisible = true
+
+          if (searchTerm && card.dataset.name && !card.dataset.name.includes(searchTerm)) {
+            isVisible = false
+          }
+
+          if (selectedBrand && card.dataset.brand !== selectedBrand) {
+            isVisible = false
+          }
+
+          if (maxPrice !== null && card.dataset.minPrice && parseFloat(card.dataset.minPrice) > maxPrice) {
+            isVisible = false
+          }
+
+          if (isVisible) {
+            card.style.display = "block"
+            visibleCount++
+          } else {
+            card.style.display = "none"
+          }
+        })
+
+        updateResultsCount(visibleCount)
+
+        const noProductsMsg = document.getElementById("no-products") as HTMLElement
+        if (noProductsMsg) noProductsMsg.classList.add("hidden")
+        
+        if (hasActiveFilters && visibleCount === 0 && currentProducts.length > 0) {
+          if (noProductsMsg) noProductsMsg.classList.remove("hidden")
+        }
+      }
+
+      function updateResultsCount(visibleCount: number | null = null) {
+        const resultsCount = document.getElementById("results-count") as HTMLElement
+        const count = visibleCount !== null ? visibleCount : currentProducts.length
+        if (resultsCount) {
+          resultsCount.textContent = `Mostrando ${count} de ${currentProducts.length} productos`
+        }
+      }
+
+      function clearAllFilters() {
+        const searchInput = document.getElementById("search-input") as HTMLInputElement
+        const brandFilter = document.getElementById("brand-filter") as HTMLInputElement
+        const priceFilter = document.getElementById("price-filter") as HTMLInputElement
+
+        if (searchInput) searchInput.value = ""
+        if (brandFilter) brandFilter.value = ""
+        if (priceFilter) priceFilter.value = ""
+
+        hasActiveFilters = false
+        applyFilters()
+      }
+
+      // Event listeners
+      document.addEventListener("DOMContentLoaded", function () {
+        const dialog = document.getElementById("product-dialog") as HTMLElement
+        const closeBtn = document.getElementById("close-dialog") as HTMLElement
+        const searchInput = document.getElementById("search-input") as HTMLInputElement
+        const brandFilter = document.getElementById("brand-filter") as HTMLInputElement
+        const priceFilter = document.getElementById("price-filter") as HTMLInputElement
+        const clearFiltersBtn = document.getElementById("clear-filters") as HTMLElement
+        const comingSoonModal = document.getElementById("coming-soon-modal") as HTMLElement
+        const closeComingSoonBtn = document.getElementById("close-coming-soon") as HTMLElement
+
+        // Cerrar dialog principal
+        if (closeBtn && dialog) {
+          closeBtn.addEventListener("click", () => {
+            dialog.classList.add("hidden")
+            document.body.style.overflow = ""
+          })
+        }
+
+        // Cerrar modal de próximamente
+        if (closeComingSoonBtn && comingSoonModal) {
+          closeComingSoonBtn.addEventListener("click", () => {
+            comingSoonModal.classList.add("hidden")
+            document.body.style.overflow = ""
+          })
+        }
+
+        // Cerrar al hacer clic fuera
+        if (dialog) {
+          dialog.addEventListener("click", (e) => {
+            if (e.target === dialog) {
+              dialog.classList.add("hidden")
+              document.body.style.overflow = ""
+            }
+          })
+        }
+
+        if (comingSoonModal) {
+          comingSoonModal.addEventListener("click", (e) => {
+            if (e.target === comingSoonModal) {
+              comingSoonModal.classList.add("hidden")
+              document.body.style.overflow = ""
+            }
+          })
+        }
+
+        // Filtros en tiempo real
+        if (searchInput) searchInput.addEventListener("input", applyFilters)
+        if (brandFilter) brandFilter.addEventListener("change", applyFilters)
+        if (priceFilter) priceFilter.addEventListener("change", applyFilters)
+        if (clearFiltersBtn) clearFiltersBtn.addEventListener("click", clearAllFilters)
+
+        // Escape key para cerrar
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            if (dialog && !dialog.classList.contains("hidden")) {
+              dialog.classList.add("hidden")
+              document.body.style.overflow = ""
+            }
+            if (comingSoonModal && !comingSoonModal.classList.contains("hidden")) {
+              comingSoonModal.classList.add("hidden")
+              document.body.style.overflow = ""
+            }
+          }
+        })
+      })
+
+      // Hacer las funciones globales
+      ;(window as any).openProductDialog = openProductDialog
+      ;(window as any).showComingSoon = showComingSoon
+    </script>
+  </body>
+</html>

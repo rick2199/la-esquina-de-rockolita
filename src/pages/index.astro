@@ -1,16 +1,261 @@
 ---
-
+import "../styles/globals.css"
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Catálogo digital de La Esquina de Rockolita - Licorería y Confitería"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Esquina de Rockolita - Catálogo Digital</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  </head>
+
+  <body class="font-brand bg-rockolita-cream">
+    <!-- Header -->
+    <header class="rockolita-header relative overflow-hidden">
+      <!-- Efecto de fondo sutil -->
+      <div class="absolute inset-0 bg-gradient-to-br from-white via-rockolita-cream/30 to-rockolita-cream/50"></div>
+      
+      <div class="container mx-auto px-4 py-8 relative">
+        <div class="text-center">
+          <a href="/" class="group hover:opacity-90 transition-all duration-300">
+            
+            <!-- Logo principal con animaciones mejoradas -->
+            <div class="flex items-center justify-center gap-4 mb-4">
+              <!-- Perro izquierdo -->
+              <div class="text-4xl md:text-5xl rockolita-wiggle transform group-hover:scale-110 transition-transform duration-300">
+                🐕
+              </div>
+              
+              <!-- Logo central con efecto -->
+              <div class="relative">
+                <!-- Sombra suave detrás del logo -->
+                <div class="absolute inset-0 bg-rockolita-primary/20 rounded-full blur-xl transform scale-110"></div>
+                
+                <!-- Logo principal -->
+                <img
+                  src="https://d2ns2vv9idwaki.cloudfront.net/licoreria/logo-la-esquina-de-rockolita.png"
+                  alt="La Esquina de Rockolita"
+                  class="relative w-36 md:w-40 h-auto mx-auto transform group-hover:scale-105 transition-transform duration-300 filter drop-shadow-lg"
+                  loading="lazy"
+                />
+              </div>
+              
+              <!-- Cerveza derecha -->
+              <div class="text-4xl md:text-5xl rockolita-wiggle transform group-hover:scale-110 transition-transform duration-300">
+                🍺
+              </div>
+            </div>
+
+            <!-- Subtitle con mejor espaciado -->
+            <div class="flex items-center justify-center gap-3 mb-2">
+              <div class="w-8 md:w-12 h-0.5 bg-gradient-to-r from-transparent via-rockolita-primary to-rockolita-primary rounded-full"></div>
+              <p class="brand-subtitle text-rockolita-secondary text-sm md:text-base uppercase tracking-wider font-medium">
+                Catálogo Digital
+              </p>
+              <div class="w-8 md:w-12 h-0.5 bg-gradient-to-l from-transparent via-rockolita-primary to-rockolita-primary rounded-full"></div>
+            </div>
+
+            <!-- Tagline adicional -->
+            <p class="brand-text text-rockolita-secondary/80 text-xs mt-2 font-light">
+              Tu esquina de confianza
+            </p>
+            
+          </a>
+        </div>
+      </div>
+
+      <!-- Línea decorativa inferior -->
+      <div class="h-1 bg-gradient-to-r from-rockolita-primary/30 via-rockolita-primary to-rockolita-primary/30"></div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container mx-auto px-4 py-12">
+      <div class="max-w-4xl mx-auto">
+        
+        <!-- Saludo principal -->
+        <div class="text-center mb-12">
+          <h2 class="brand-title text-3xl md:text-4xl text-rockolita-dark mb-4">
+            ¿Qué estás buscando hoy?
+          </h2>
+          <p class="brand-text text-rockolita-secondary text-lg">
+            Explora nuestro catálogo organizado por categorías
+          </p>
+          <div class="golden-line mt-8">
+            <div class="text-2xl">🥃</div>
+          </div>
+        </div>
+
+        <!-- Grid de categorías principales -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <!-- Cervezas -->
+          <a
+            href="/cervezas"
+            class="rockolita-card group p-6 text-center block"
+          >
+            <div class="text-4xl md:text-5xl mb-4 group-hover:animate-wiggle transition-transform duration-300">
+              🍺
+            </div>
+            <h3 class="brand-subtitle text-lg font-bold text-rockolita-dark group-hover:text-rockolita-primary transition-colors mb-2">
+              CERVEZAS
+            </h3>
+            <p class="brand-text text-rockolita-secondary text-xs mb-3">
+              Nacionales e importadas siempre frías
+            </p>
+            <div class="flex items-center justify-center text-rockolita-primary text-sm font-medium">
+              Explorar
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Licores -->
+          <a
+            href="/licores"
+            class="rockolita-card group p-6 text-center block"
+          >
+            <div class="text-4xl md:text-5xl mb-4 group-hover:animate-wiggle transition-transform duration-300">
+              🍷
+            </div>
+            <h3 class="brand-subtitle text-lg font-bold text-rockolita-dark group-hover:text-rockolita-primary transition-colors mb-2">
+              LICORES
+            </h3>
+            <p class="brand-text text-rockolita-secondary text-xs mb-3">
+              Whisky, Ron, Vodka, Pisco y más
+            </p>
+            <div class="flex items-center justify-center text-rockolita-primary text-sm font-medium">
+              Explorar
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Confitería -->
+          <a
+            href="/confiteria"
+            class="rockolita-card group p-6 text-center block"
+          >
+            <div class="text-4xl md:text-5xl mb-4 group-hover:animate-wiggle transition-transform duration-300">
+              🥤
+            </div>
+            <h3 class="brand-subtitle text-lg font-bold text-rockolita-dark group-hover:text-rockolita-primary transition-colors mb-2">
+              CONFITERÍA
+            </h3>
+            <p class="brand-text text-rockolita-secondary text-xs mb-3">
+              Gaseosas, energizantes y snacks
+            </p>
+            <div class="flex items-center justify-center text-rockolita-primary text-sm font-medium">
+              Explorar
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Cigarros & Vapes -->
+          <a
+            href="/cigarros"
+            class="rockolita-card group p-6 text-center block"
+          >
+            <div class="text-4xl md:text-5xl mb-4 group-hover:animate-wiggle transition-transform duration-300">
+              🚬
+            </div>
+            <h3 class="brand-subtitle text-lg font-bold text-rockolita-dark group-hover:text-rockolita-primary transition-colors mb-2">
+              CIGARROS
+            </h3>
+            <p class="brand-text text-rockolita-secondary text-xs mb-3">
+              Productos de tabaco y vapes
+            </p>
+            <div class="flex items-center justify-center text-rockolita-primary text-sm font-medium">
+              Explorar
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <!-- Información adicional con estilo de marca -->
+        <div class="mt-16 rockolita-card p-8">
+          <div class="text-center">
+            <h3 class="brand-title text-2xl text-rockolita-dark mb-6">
+              Sobre nuestro catálogo
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 brand-text text-sm text-rockolita-secondary">
+              <div class="group">
+                <div class="text-3xl mb-3 group-hover:animate-wiggle">📋</div>
+                <h4 class="brand-subtitle font-semibold text-rockolita-dark mb-2">
+                  Catálogo actualizado
+                </h4>
+                <p>Precios y productos actualizados constantemente</p>
+              </div>
+              <div class="group">
+                <div class="text-3xl mb-3 group-hover:animate-wiggle">🚚</div>
+                <h4 class="brand-subtitle font-semibold text-rockolita-dark mb-2">
+                  Disponibilidad real
+                </h4>
+                <p>Solo mostramos productos que tenemos en stock</p>
+              </div>
+              <div class="group">
+                <div class="text-3xl mb-3 group-hover:animate-wiggle">💰</div>
+                <h4 class="brand-subtitle font-semibold text-rockolita-dark mb-2">
+                  Mejores precios
+                </h4>
+                <p>Precios competitivos y ofertas especiales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to action especial -->
+        <div class="mt-12 text-center">
+          <div class="rockolita-gradient p-8 rounded-lg text-white">
+            <div class="flex items-center justify-center gap-4 mb-4">
+              <div class="text-4xl">🐕</div>
+              <h3 class="brand-title text-2xl">¡Rockolita te atiende!</h3>
+              <div class="text-4xl">🍻</div>
+            </div>
+            <p class="brand-text text-lg mb-4">
+              Encuentra todo lo que necesitas para tu ocasión especial
+            </p>
+            <div class="flex items-center justify-center gap-2 text-sm opacity-90">
+              <span>📍 Calle Camino Real 181, El Agustino - Lima</span>
+              <span>•</span>
+              <span>⏰ Lunes a Domingo 24 horas</span>
+              <span>•</span>
+              <span>❄️ Productos refrigerados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer con identidad de marca -->
+    <footer class="rockolita-footer py-8 mt-16">
+      <div class="container mx-auto px-4 text-center">
+        <div class="flex items-center justify-center gap-2 mb-4">
+          <div class="text-2xl">🐕</div>
+          <img
+            src="https://d2ns2vv9idwaki.cloudfront.net/licoreria/logo-la-esquina-de-rockolita.png"
+            alt="La Esquina de Rockolita"
+            class="w-24 h-auto"
+            loading="lazy"
+          />
+          <div class="text-2xl">🍺</div>
+        </div>
+        <div class="brand-text text-xs text-rockolita-cream opacity-90">
+          <p>📍 Calle Camino Real 181, El Agustino - Lima 📞 994 333 604</p>
+          <p class="mt-1">🕒 Horarios de atención: Lunes a Domingo 24 horas</p>
+          <p class="mt-2 text-rockolita-primary font-medium">Tu esquina de confianza 🏪</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
