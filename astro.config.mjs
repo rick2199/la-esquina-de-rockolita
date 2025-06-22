@@ -10,7 +10,21 @@ export default defineConfig({
     }),
   ],
   output: 'static',
+  site: 'https://lasesquinaderockolita.com.pe',
+  trailingSlash: 'ignore',
   build: {
-    inlineStylesheets: 'auto'
+    format: 'file',
+    inlineStylesheets: 'auto',
+    assets: '_astro'
+  },
+  vite: {
+    build: {
+      assetsInlineLimit: 0,
+      rollupOptions: {
+        output: {
+          assetFileNames: 'assets/[name].[hash][extname]'
+        }
+      }
+    }
   }
 });
