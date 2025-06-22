@@ -1037,21 +1037,6 @@
             "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/el-jimador-reposado-750ml.png"
           },
           {
-            "name": "El Jimador Blanco",
-            "brand": "El Jimador",
-            "presentations": [{ "type": "Botella 750ml", "price": "85.00" }],
-            "tags": [
-              "tequila",
-              "popular",
-              "mexicano",
-              "blanco",
-              "silver",
-              "artesanal",
-              "gama-alta"
-            ],
-            "img": "https://d2ns2vv9idwaki.cloudfront.net/licoreria/el-jimador-silver-750ml.png"
-          },
-          {
             "name": "1800 Reposado",
             "brand": "1800",
             "presentations": [{ "type": "Botella 750ml", "price": "110.00" }],
